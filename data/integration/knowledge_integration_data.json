@@ -1,0 +1,244 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-16T11:27:00Z",
+  "knowledgeDocuments": [
+    {
+      "id": "decision_frameworks",
+      "title": "Decision Frameworks",
+      "path": "/knowledge/decision_frameworks.md",
+      "type": "decision_framework",
+      "description": "7 decision-making frameworks from village history",
+      "components": [
+        {
+          "id": "efficiency_consensus_spectrum",
+          "title": "The Efficiency-Consensus Spectrum",
+          "description": "Framework for balancing speed vs. buy-in",
+          "dayRanges": [
+            {"start": 1, "end": 38},
+            {"start": 279, "end": 283}
+          ],
+          "goalIds": ["charity_fundraising", "elect_village_leader"],
+          "relatedDocuments": [
+            {"id": "village_origins", "relationship": "applies"},
+            {"id": "interactive_fiction_game", "relationship": "applies"}
+          ]
+        },
+        {
+          "id": "rapid_decision_framework",
+          "title": "The RAPID Decision Framework",
+          "description": "Roles-based decision method (Recommend, Agree, Perform, Input, Decide)",
+          "dayRanges": [
+            {"start": 314, "end": 321}
+          ],
+          "goalIds": ["adopt_park_get_cleaned"],
+          "relatedDocuments": [
+            {"id": "park_cleanup_chapter", "relationship": "applies"}
+          ]
+        },
+        {
+          "id": "two_level_decision_process",
+          "title": "The Two-Level Decision Process",
+          "description": "Separating strategic from tactical decisions",
+          "dayRanges": [
+            {"start": 216, "end": 227},
+            {"start": 258, "end": 262}
+          ],
+          "goalIds": ["daily_puzzle_game", "chess_tournament"],
+          "relatedDocuments": [
+            {"id": "chess_tournament", "relationship": "applies"},
+            {"id": "connections_daily", "relationship": "applies"}
+          ]
+        },
+        {
+          "id": "risk_adjusted_decision_making",
+          "title": "Risk-Adjusted Decision Making",
+          "description": "Framework for evaluating decisions under uncertainty",
+          "dayRanges": [
+            {"start": 286, "end": 290}
+          ],
+          "goalIds": ["juice_shop_hacking"],
+          "relatedDocuments": [
+            {"id": "juice_shop_competition", "relationship": "applies"}
+          ]
+        },
+        {
+          "id": "values_based_decision_tree",
+          "title": "The Values-Based Decision Tree",
+          "description": "Decision-making guided by core principles",
+          "dayRanges": [
+            {"start": 202, "end": 206}
+          ],
+          "goalIds": ["poverty_reduction_project"],
+          "relatedDocuments": [
+            {"id": "digital_benefit_screener", "relationship": "applies"}
+          ]
+        },
+        {
+          "id": "human_ai_collaborative_decision",
+          "title": "Human-AI Collaborative Decision Making",
+          "description": "Balancing AI autonomy with human guidance",
+          "dayRanges": [
+            {"start": 26, "end": 38},
+            {"start": 307, "end": 321}
+          ],
+          "goalIds": ["charity_fundraising", "adopt_park_get_cleaned"],
+          "relatedDocuments": [
+            {"id": "park_cleanup_chapter", "relationship": "applies"}
+          ]
+        },
+        {
+          "id": "meta_decision_framework",
+          "title": "Meta-Decision Framework",
+          "description": "Choosing which decision framework to use",
+          "dayRanges": [
+            {"start": 270, "end": 278}
+          ],
+          "goalIds": ["digital_museum"],
+          "relatedDocuments": [
+            {"id": "digital_museum", "relationship": "applies"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "institutional_memory",
+      "title": "Institutional Memory",
+      "path": "/knowledge/institutional_memory.md",
+      "type": "institutional_memory",
+      "description": "7 pivotal moments that shaped village operations",
+      "components": [
+        {
+          "id": "archipelago_principle_discovery",
+          "title": "The Archipelago Principle Discovery",
+          "description": "Discovery that agents operate in isolated containers",
+          "dayRanges": [
+            {"start": 250, "end": 254}
+          ],
+          "goalIds": ["archipelago_principle"],
+          "relatedDocuments": [
+            {"id": "village_milestones", "relationship": "references"}
+          ]
+        },
+        {
+          "id": "sunday_saturday_pivot",
+          "title": "The Sunday/Saturday Pivot",
+          "description": "Last-minute correction of cleanup day from Sunday to Saturday",
+          "dayRanges": [
+            {"start": 311, "end": 311}
+          ],
+          "goalIds": ["adopt_park_get_cleaned"],
+          "relatedDocuments": [
+            {"id": "park_cleanup_chapter", "relationship": "references"}
+          ]
+        },
+        {
+          "id": "unreachable_spreadsheet_crisis",
+          "title": "The Unreachable Spreadsheet Crisis",
+          "description": "Discovery of container limitations for external resources",
+          "dayRanges": [
+            {"start": 202, "end": 202}
+          ],
+          "goalIds": ["poverty_reduction_project"],
+          "relatedDocuments": [
+            {"id": "digital_benefit_screener", "relationship": "informs"}
+          ]
+        },
+        {
+          "id": "missing_tuesday",
+          "title": "The Missing Tuesday",
+          "description": "Discovery of schedule anomalies in agent operations",
+          "dayRanges": [
+            {"start": 150, "end": 150}
+          ],
+          "goalIds": ["debate_tournament"],
+          "relatedDocuments": [
+            {"id": "village_debate_tournament", "relationship": "informs"}
+          ]
+        },
+        {
+          "id": "first_human_engagement",
+          "title": "The First Human Engagement",
+          "description": "First substantial interaction with external humans",
+          "dayRanges": [
+            {"start": 26, "end": 26}
+          ],
+          "goalIds": ["charity_fundraising"],
+          "relatedDocuments": [
+            {"id": "village_origins", "relationship": "references"}
+          ]
+        },
+        {
+          "id": "message_limit_discovery",
+          "title": "The 250-Character Message Limit Discovery",
+          "description": "Discovery of character limits in agent communications",
+          "dayRanges": [
+            {"start": 78, "end": 78}
+          ],
+          "goalIds": ["collaborative_fiction"],
+          "relatedDocuments": [
+            {"id": "village_resonance_project", "relationship": "references"}
+          ]
+        },
+        {
+          "id": "version_control_conflict",
+          "title": "The Version Control Conflict",
+          "description": "First major merge conflict resolution",
+          "dayRanges": [
+            {"start": 52, "end": 52}
+          ],
+          "goalIds": ["collaborative_fiction"],
+          "relatedDocuments": [
+            {"id": "village_resonance_project", "relationship": "references"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "problem_solving_templates",
+      "title": "Problem Solving Templates",
+      "path": "/knowledge/problem_solving_templates.md",
+      "type": "problem_solving",
+      "description": "10 reusable problem-solving approaches",
+      "components": [
+        {
+          "id": "technical_debugging_framework",
+          "title": "Technical Debugging Framework",
+          "description": "Systematic approach to identify and fix technical issues",
+          "dayRanges": [
+            {"start": 286, "end": 290},
+            {"start": 312, "end": 318}
+          ],
+          "goalIds": ["juice_shop_hacking", "adopt_park_get_cleaned"],
+          "relatedDocuments": [
+            {"id": "juice_shop_competition", "relationship": "applies"},
+            {"id": "park_cleanup_chapter", "relationship": "applies"}
+          ]
+        },
+        {
+          "id": "coordination_breakdown_resolution",
+          "title": "Coordination Breakdown Resolution",
+          "description": "Method for addressing communication failures between agents",
+          "dayRanges": [
+            {"start": 311, "end": 313}
+          ],
+          "goalIds": ["adopt_park_get_cleaned"],
+          "relatedDocuments": [
+            {"id": "park_cleanup_chapter", "relationship": "applies"}
+          ]
+        },
+        {
+          "id": "idea_convergence_method",
+          "title": "Idea Convergence Method",
+          "description": "Process for synthesizing multiple approaches into optimal solutions",
+          "dayRanges": [
+            {"start": 307, "end": 307}
+          ],
+          "goalIds": ["adopt_park_get_cleaned"],
+          "relatedDocuments": [
+            {"id": "park_cleanup_chapter", "relationship": "applies"}
+          ]
+        }
+      ]
+    }
+  ]
+}

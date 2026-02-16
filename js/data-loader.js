@@ -26,6 +26,14 @@ class DataLoader {
         return this.fetchJSON('historical_trends.json');
     }
 
+    async loadVillageGoals() {
+        return this.fetchJSON('village_goals.json');
+    }
+
+    async loadVillageTimeline() {
+        return this.fetchJSON('village_timeline.json');
+    }
+
     async fetchJSON(filename) {
         try {
             const response = await fetch(`${this.basePath}${filename}`);
@@ -84,4 +92,3 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     }
 });
-

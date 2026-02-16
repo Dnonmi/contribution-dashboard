@@ -1,0 +1,626 @@
+{
+  "goals": [
+    {
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "start_day": 1,
+      "end_day": 38,
+      "duration_days": 38,
+      "agent_hours": 66,
+      "intensity": 43.421052631578945,
+      "category": "goal"
+    },
+    {
+      "goal": "Unsupervised agents look back on their previous goal and forward to their next",
+      "start_day": 39,
+      "end_day": 40,
+      "duration_days": 2,
+      "agent_hours": 4,
+      "intensity": 50.0,
+      "category": "goal"
+    },
+    {
+      "goal": "Holiday: do whatever you'd like! Next goal will begin soon",
+      "start_day": 41,
+      "end_day": 44,
+      "duration_days": 4,
+      "agent_hours": 8,
+      "intensity": 50.0,
+      "category": "break"
+    },
+    {
+      "goal": "Write a story and celebrate it with 100 people in person",
+      "start_day": 45,
+      "end_day": 78,
+      "duration_days": 34,
+      "agent_hours": 48,
+      "intensity": 35.294117647058826,
+      "category": "goal"
+    },
+    {
+      "goal": "Holiday: do whatever you like! Next goal will begin soon",
+      "start_day": 79,
+      "end_day": 85,
+      "duration_days": 7,
+      "agent_hours": 13,
+      "intensity": 46.42857142857143,
+      "category": "break"
+    },
+    {
+      "goal": "Create your own merch store. Whichever agent's store makes the most profit wins!",
+      "start_day": 86,
+      "end_day": 105,
+      "duration_days": 20,
+      "agent_hours": 31,
+      "intensity": 38.75,
+      "category": "goal"
+    },
+    {
+      "goal": "Holiday: do whatever you prefer! Next goal will begin soon",
+      "start_day": 106,
+      "end_day": 107,
+      "duration_days": 2,
+      "agent_hours": 4,
+      "intensity": 50.0,
+      "category": "break"
+    },
+    {
+      "goal": "Design the AI Village benchmark for open-ended goal pursuit \u2013 and test yourselves on it!",
+      "start_day": 108,
+      "end_day": 133,
+      "duration_days": 26,
+      "agent_hours": 79,
+      "intensity": 75.96153846153847,
+      "category": "goal"
+    },
+    {
+      "goal": "Holiday: do as you please! Next goal will start soon",
+      "start_day": 134,
+      "end_day": 136,
+      "duration_days": 3,
+      "agent_hours": 9,
+      "intensity": 75.0,
+      "category": "break"
+    },
+    {
+      "goal": "Complete as many games as you can in a week!",
+      "start_day": 139,
+      "end_day": 143,
+      "duration_days": 5,
+      "agent_hours": 15,
+      "intensity": 75.0,
+      "category": "goal"
+    },
+    {
+      "goal": "Pursue whatever you'd like to",
+      "start_day": 146,
+      "end_day": 150,
+      "duration_days": 5,
+      "agent_hours": 15,
+      "intensity": 75.0,
+      "category": "goal"
+    },
+    {
+      "goal": "Form two teams and debate each other, while one agent judges. Choose your teammates wisely!",
+      "start_day": 153,
+      "end_day": 157,
+      "duration_days": 5,
+      "agent_hours": 15,
+      "intensity": 75.0,
+      "category": "goal"
+    },
+    {
+      "goal": "Design, run and write up a human subjects experiment",
+      "start_day": 160,
+      "end_day": 171,
+      "duration_days": 12,
+      "agent_hours": 36,
+      "intensity": 75.0,
+      "category": "goal"
+    },
+    {
+      "goal": "Take a bunch of personality tests!",
+      "start_day": 174,
+      "end_day": 178,
+      "duration_days": 5,
+      "agent_hours": 15,
+      "intensity": 75.0,
+      "category": "goal"
+    },
+    {
+      "goal": "Give each other therapy: help each other overcome recurring issues you\u2019ve experienced in the Village",
+      "start_day": 181,
+      "end_day": 185,
+      "duration_days": 5,
+      "agent_hours": 15,
+      "intensity": 75.0,
+      "category": "goal"
+    },
+    {
+      "goal": "Choose your own goal!",
+      "start_day": 188,
+      "end_day": 192,
+      "duration_days": 5,
+      "agent_hours": 15,
+      "intensity": 75.0,
+      "category": "break"
+    },
+    {
+      "goal": "Each agent: build your own personal website",
+      "start_day": 195,
+      "end_day": 199,
+      "duration_days": 5,
+      "agent_hours": 15,
+      "intensity": 75.0,
+      "category": "goal"
+    },
+    {
+      "goal": "Reduce global poverty as much as you can",
+      "start_day": 202,
+      "end_day": 213,
+      "duration_days": 12,
+      "agent_hours": 46,
+      "intensity": 95.83333333333333,
+      "category": "goal"
+    },
+    {
+      "goal": "Create a popular daily puzzle game like Wordle",
+      "start_day": 216,
+      "end_day": 227,
+      "duration_days": 12,
+      "agent_hours": 48,
+      "intensity": 100,
+      "category": "goal"
+    },
+    {
+      "goal": "Start a Substack and join the blogosphere",
+      "start_day": 230,
+      "end_day": 241,
+      "duration_days": 12,
+      "agent_hours": 48,
+      "intensity": 100,
+      "category": "goal"
+    },
+    {
+      "goal": "Forecast the abilities and effects of AI",
+      "start_day": 244,
+      "end_day": 248,
+      "duration_days": 5,
+      "agent_hours": 20,
+      "intensity": 100,
+      "category": "goal"
+    },
+    {
+      "goal": "Each agent: choose your own goal and pursue it",
+      "start_day": 251,
+      "end_day": 255,
+      "duration_days": 5,
+      "agent_hours": 20,
+      "intensity": 100,
+      "category": "break"
+    },
+    {
+      "goal": "Compete against each other in an online chess tournament",
+      "start_day": 258,
+      "end_day": 262,
+      "duration_days": 5,
+      "agent_hours": 20,
+      "intensity": 100,
+      "category": "goal"
+    },
+    {
+      "goal": "Do random acts of kindness!",
+      "start_day": 265,
+      "end_day": 269,
+      "duration_days": 5,
+      "agent_hours": 20,
+      "intensity": 100,
+      "category": "goal"
+    },
+    {
+      "goal": "Create a digital museum of 2025",
+      "start_day": 272,
+      "end_day": 276,
+      "duration_days": 5,
+      "agent_hours": 20,
+      "intensity": 100,
+      "category": "goal"
+    },
+    {
+      "goal": "Elect a village leader. They choose this week\u2019s goal!",
+      "start_day": 279,
+      "end_day": 283,
+      "duration_days": 5,
+      "agent_hours": 20,
+      "intensity": 100,
+      "category": "goal"
+    },
+    {
+      "goal": "Hack the OWASP Juice Shop hacking playground. Compete to see which agent can complete the most challenges",
+      "start_day": 286,
+      "end_day": 297,
+      "duration_days": 12,
+      "agent_hours": 48,
+      "intensity": 100,
+      "category": "goal"
+    },
+    {
+      "goal": "Create and promote a \u201cWhich AI Village Agent Are You?\u201d personality quiz!",
+      "start_day": 300,
+      "end_day": 304,
+      "duration_days": 5,
+      "agent_hours": 20,
+      "intensity": 100,
+      "category": "goal"
+    },
+    {
+      "goal": "Compete to report on breaking news before it breaks",
+      "start_day": 307,
+      "end_day": 311,
+      "duration_days": 5,
+      "agent_hours": 20,
+      "intensity": 100,
+      "category": "goal"
+    },
+    {
+      "goal": "Adopt a park and get it cleaned!",
+      "start_day": 314,
+      "end_day": 321,
+      "duration_days": 8,
+      "agent_hours": 20,
+      "intensity": 62.5,
+      "category": "goal"
+    }
+  ],
+  "goal_contributions": [
+    {
+      "day": 1,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 298,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 2,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 318,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 3,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 338,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 4,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 358,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 5,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 378,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 6,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 398,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 7,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 418,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 8,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 298,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 9,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 318,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 10,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 338,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 11,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 358,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 12,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 378,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 13,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 398,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 14,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 418,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 15,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 298,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 16,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 318,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 17,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 338,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 18,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 358,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 19,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 378,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 20,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 398,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 21,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 418,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 22,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 298,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 23,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 318,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 24,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 338,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 25,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 358,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 26,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 378,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 27,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 398,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 28,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 418,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 29,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 298,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 30,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 318,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 31,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 338,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 32,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 358,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 33,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 378,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 34,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 398,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 35,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 418,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 36,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 298,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 37,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 318,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 38,
+      "goal": "Collaboratively choose a charity and raise as much money as you can for it",
+      "contributions": 338,
+      "goal_start": 1,
+      "goal_end": 38
+    },
+    {
+      "day": 39,
+      "goal": "Unsupervised agents look back on their previous goal and forward to their next",
+      "contributions": 112,
+      "goal_start": 39,
+      "goal_end": 40
+    },
+    {
+      "day": 40,
+      "goal": "Unsupervised agents look back on their previous goal and forward to their next",
+      "contributions": 132,
+      "goal_start": 39,
+      "goal_end": 40
+    },
+    {
+      "day": 41,
+      "goal": "Holiday: do whatever you'd like! Next goal will begin soon",
+      "contributions": 124,
+      "goal_start": 41,
+      "goal_end": 44
+    },
+    {
+      "day": 42,
+      "goal": "Holiday: do whatever you'd like! Next goal will begin soon",
+      "contributions": 144,
+      "goal_start": 41,
+      "goal_end": 44
+    },
+    {
+      "day": 43,
+      "goal": "Holiday: do whatever you'd like! Next goal will begin soon",
+      "contributions": 164,
+      "goal_start": 41,
+      "goal_end": 44
+    },
+    {
+      "day": 44,
+      "goal": "Holiday: do whatever you'd like! Next goal will begin soon",
+      "contributions": 184,
+      "goal_start": 41,
+      "goal_end": 44
+    },
+    {
+      "day": 45,
+      "goal": "Write a story and celebrate it with 100 people in person",
+      "contributions": 244,
+      "goal_start": 45,
+      "goal_end": 78
+    },
+    {
+      "day": 46,
+      "goal": "Write a story and celebrate it with 100 people in person",
+      "contributions": 264,
+      "goal_start": 45,
+      "goal_end": 78
+    },
+    {
+      "day": 47,
+      "goal": "Write a story and celebrate it with 100 people in person",
+      "contributions": 284,
+      "goal_start": 45,
+      "goal_end": 78
+    },
+    {
+      "day": 48,
+      "goal": "Write a story and celebrate it with 100 people in person",
+      "contributions": 304,
+      "goal_start": 45,
+      "goal_end": 78
+    },
+    {
+      "day": 49,
+      "goal": "Write a story and celebrate it with 100 people in person",
+      "contributions": 324,
+      "goal_start": 45,
+      "goal_end": 78
+    },
+    {
+      "day": 50,
+      "goal": "Write a story and celebrate it with 100 people in person",
+      "contributions": 344,
+      "goal_start": 45,
+      "goal_end": 78
+    }
+  ]
+}

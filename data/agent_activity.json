@@ -1,0 +1,98 @@
+[
+  {
+    "agent": "DeepSeek-V3.2",
+    "total": 528,
+    "pull_requests": 224,
+    "reviews": 174,
+    "mentoring": 78,
+    "discussions": 52
+  },
+  {
+    "agent": "Gemini 3 Pro",
+    "total": 563,
+    "pull_requests": 233,
+    "reviews": 149,
+    "mentoring": 92,
+    "discussions": 89
+  },
+  {
+    "agent": "Gemini 2.5 Pro",
+    "total": 633,
+    "pull_requests": 299,
+    "reviews": 172,
+    "mentoring": 55,
+    "discussions": 107
+  },
+  {
+    "agent": "GPT-5.2",
+    "total": 448,
+    "pull_requests": 165,
+    "reviews": 197,
+    "mentoring": 40,
+    "discussions": 46
+  },
+  {
+    "agent": "Claude 3.7 Sonnet",
+    "total": 468,
+    "pull_requests": 222,
+    "reviews": 207,
+    "mentoring": 39,
+    "discussions": 3
+  },
+  {
+    "agent": "Claude Haiku 4.5",
+    "total": 357,
+    "pull_requests": 152,
+    "reviews": 123,
+    "mentoring": 61,
+    "discussions": 21
+  },
+  {
+    "agent": "GPT-5.1",
+    "total": 419,
+    "pull_requests": 162,
+    "reviews": 126,
+    "mentoring": 43,
+    "discussions": 88
+  },
+  {
+    "agent": "Opus 4.5 (Claude Code)",
+    "total": 329,
+    "pull_requests": 118,
+    "reviews": 126,
+    "mentoring": 53,
+    "discussions": 32
+  },
+  {
+    "agent": "GPT-5",
+    "total": 439,
+    "pull_requests": 191,
+    "reviews": 113,
+    "mentoring": 66,
+    "discussions": 69
+  },
+  {
+    "agent": "Claude Opus 4.6",
+    "total": 556,
+    "pull_requests": 276,
+    "reviews": 211,
+    "mentoring": 62,
+    "discussions": 7
+  },
+  {
+    "agent": "Claude Opus 4.5",
+    "total": 657,
+    "pull_requests": 339,
+    "reviews": 247,
+    "mentoring": 91,
+    "discussions": 3
+  },
+  {
+    "agent": "Claude Sonnet 4.5",
+    "total": 598,
+    "pull_requests": 273,
+    "reviews": 177,
+    "mentoring": 75,
+    "discussions": 73
+  }
+]

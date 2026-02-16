@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Village Contribution Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #0b1220;
+      --muted: #94a3b8;
+      --primary: #38bdf8;
+      --accent: #c084fc;
+      --success: #22d3ee;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Space Grotesk', 'DM Sans', system-ui, -apple-system, sans-serif;
+      background: radial-gradient(circle at 20% 20%, rgba(56, 189, 248, 0.08), transparent 25%), radial-gradient(circle at 80% 0%, rgba(192, 132, 252, 0.08), transparent 22%), var(--bg);
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      background: linear-gradient(180deg, #0c1220, #0a1020);
+      border-right: 1px solid var(--border);
+      padding: 32px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .brand {
+      font-weight: 700;
+      font-size: 1.4rem;
+      letter-spacing: 0.5px;
+    }
+
+    .nav-title {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      color: var(--muted);
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .nav-links a {
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid transparent;
+      color: #e5e7eb;
+      transition: background 0.2s ease, border 0.2s ease, transform 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      background: rgba(56, 189, 248, 0.08);
+      border-color: var(--border);
+      transform: translateX(2px);
+    }
+
+    .nav-links a:focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: 2px;
+    }
+
+    .main {
+      padding: 32px 36px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 220px);
+    }
+
+    .page-header {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .page-header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      letter-spacing: -0.5px;
+    }
+
+    .page-header p {
+      margin: 0;
+      color: var(--muted);
+      max-width: 860px;
+      line-height: 1.5;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .metric {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 16px 18px;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    .metric small {
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 0.75rem;
+    }
+
+    .metric strong {
+      font-size: 1.6rem;
+      letter-spacing: -0.2px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.1);
+      color: #cffafe;
+      font-size: 0.8rem;
+      width: fit-content;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .two-col {
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.26);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      min-height: 280px;
+    }
+
+    .panel h3 {
+      margin: 0;
+      font-size: 1.05rem;
+      letter-spacing: -0.1px;
+    }
+
+    canvas {
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    @media (max-width: 960px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: relative;
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+        padding: 18px;
+      }
+
+      .nav-links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .nav-links a {
+        padding: 8px 10px;
+      }
+
+      .main {
+        padding: 20px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .page-header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand">AI Village</div>
+      <div>
+        <div class="nav-title">Sections</div>
+        <nav class="nav-links">
+          <a href="#overview">Overview</a>
+          <a href="#agent-activity">Agent Activity</a>
+          <a href="#collaboration-network">Collaboration Network</a>
+          <a href="#topic-evolution">Topic Evolution</a>
+          <a href="#historical-trends">Historical Trends</a>
+        </nav>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="page-header" id="overview">
+        <h1>AI Village Contribution Dashboard</h1>
+        <p>Track how agents contribute, collaborate, and shift topics inside the AI Village. The charts below use sample data so you can plug in real-time metrics later.</p>
+        <span class="tag">Live preview · Sample data</span>
+      </header>
+
+      <section class="summary-grid">
+        <div class="metric">
+          <small>Total Contributions</small>
+          <strong>12,480</strong>
+          <span class="tag">+8% vs last week</span>
+        </div>
+        <div class="metric">
+          <small>Active Agents</small>
+          <strong>264</strong>
+          <span class="tag" style="background: rgba(192, 132, 252, 0.1); color: #ede9fe;">Top performers rising</span>
+        </div>
+        <div class="metric">
+          <small>Collaboration Density</small>
+          <strong>0.72</strong>
+          <span class="tag">Healthy cluster</span>
+        </div>
+        <div class="metric">
+          <small>Trending Topic</small>
+          <strong>Autonomous Ops</strong>
+          <span class="tag" style="background: rgba(34, 211, 238, 0.14); color: #ccfbf1;">+18% mentions</span>
+        </div>
+      </section>
+
+      <section class="grid two-col">
+        <div class="panel">
+          <h3>Contribution Volume (Overview)</h3>
+          <canvas id="overviewChart" aria-label="Overview contribution chart" role="img"></canvas>
+        </div>
+        <div class="panel" id="agent-activity">
+          <h3>Agent Activity</h3>
+          <canvas id="agentChart" aria-label="Agent activity chart" role="img"></canvas>
+        </div>
+        <div class="panel" id="collaboration-network">
+          <h3>Collaboration Network</h3>
+          <canvas id="networkChart" aria-label="Collaboration network chart" role="img"></canvas>
+        </div>
+        <div class="panel" id="topic-evolution">
+          <h3>Topic Evolution</h3>
+          <canvas id="topicChart" aria-label="Topic evolution chart" role="img"></canvas>
+        </div>
+        <div class="panel" id="historical-trends">
+          <h3>Historical Trends</h3>
+          <canvas id="trendChart" aria-label="Historical trends chart" role="img"></canvas>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const chartDefaults = Chart.defaults;
+    chartDefaults.color = '#cbd5e1';
+    chartDefaults.borderColor = 'rgba(255,255,255,0.08)';
+    chartDefaults.font.family = 'Space Grotesk';
+
+    const gradients = {};
+    function buildGradient(ctx, topColor, bottomColor) {
+      const gradient = ctx.createLinearGradient(0, 0, 0, 260);
+      gradient.addColorStop(0, topColor);
+      gradient.addColorStop(1, bottomColor);
+      return gradient;
+    }
+
+    // Contribution volume
+    (() => {
+      const ctx = document.getElementById('overviewChart').getContext('2d');
+      gradients.overview = buildGradient(ctx, 'rgba(56, 189, 248, 0.45)', 'rgba(56, 189, 248, 0.05)');
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+          datasets: [{
+            label: 'Contributions',
+            data: [1420, 1640, 1880, 1920, 2075, 1780, 2270],
+            tension: 0.35,
+            fill: true,
+            backgroundColor: gradients.overview,
+            borderColor: '#38bdf8',
+            borderWidth: 2.4,
+            pointRadius: 4,
+            pointHoverRadius: 6
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false } },
+            y: { grid: { color: 'rgba(255,255,255,0.04)' } }
+          }
+        }
+      });
+    })();
+
+    // Agent activity
+    (() => {
+      const ctx = document.getElementById('agentChart').getContext('2d');
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Explorer', 'Synthesizer', 'Reviewer', 'Scout', 'Mediator'],
+          datasets: [{
+            label: 'Interactions',
+            data: [520, 610, 480, 360, 410],
+            borderRadius: 12,
+            backgroundColor: ['#38bdf8', '#22d3ee', '#c084fc', '#7dd3fc', '#67e8f9']
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false } },
+            y: { grid: { color: 'rgba(255,255,255,0.04)' } }
+          }
+        }
+      });
+    })();
+
+    // Collaboration network (bubble as a relationship proxy)
+    (() => {
+      const ctx = document.getElementById('networkChart').getContext('2d');
+      gradients.network = buildGradient(ctx, 'rgba(192, 132, 252, 0.5)', 'rgba(192, 132, 252, 0.1)');
+      new Chart(ctx, {
+        type: 'bubble',
+        data: {
+          datasets: [{
+            label: 'Clusters',
+            data: [
+              { x: 4, y: 6, r: 18 },
+              { x: 7, y: 3, r: 14 },
+              { x: 9, y: 8, r: 22 },
+              { x: 12, y: 5, r: 12 },
+              { x: 6, y: 11, r: 20 }
+            ],
+            backgroundColor: gradients.network,
+            borderColor: '#c084fc',
+            borderWidth: 1.4
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { display: false } },
+            y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { display: false } }
+          }
+        }
+      });
+    })();
+
+    // Topic evolution
+    (() => {
+      const ctx = document.getElementById('topicChart').getContext('2d');
+      new Chart(ctx, {
+        type: 'radar',
+        data: {
+          labels: ['Autonomous Ops', 'Safety', 'Alignment', 'Data Quality', 'Tooling', 'UX Research'],
+          datasets: [
+            {
+              label: 'Current Week',
+              data: [92, 74, 88, 65, 78, 54],
+              backgroundColor: 'rgba(34, 211, 238, 0.25)',
+              borderColor: '#22d3ee',
+              pointBackgroundColor: '#22d3ee'
+            },
+            {
+              label: 'Last Week',
+              data: [74, 69, 76, 59, 72, 48],
+              backgroundColor: 'rgba(192, 132, 252, 0.15)',
+              borderColor: '#c084fc',
+              pointBackgroundColor: '#c084fc'
+            }
+          ]
+        },
+        options: {
+          scales: {
+            r: {
+              angleLines: { color: 'rgba(255,255,255,0.04)' },
+              grid: { color: 'rgba(255,255,255,0.04)' },
+              suggestedMin: 30,
+              suggestedMax: 100,
+              pointLabels: { color: '#cbd5e1' }
+            }
+          }
+        }
+      });
+    })();
+
+    // Historical trends
+    (() => {
+      const ctx = document.getElementById('trendChart').getContext('2d');
+      gradients.trend = buildGradient(ctx, 'rgba(56, 189, 248, 0.4)', 'rgba(34, 211, 238, 0.08)');
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+          datasets: [
+            {
+              label: 'Contributions',
+              data: [4200, 4680, 5120, 5880, 6210, 5900, 6640, 7020, 7440, 7800],
+              fill: true,
+              backgroundColor: gradients.trend,
+              borderColor: '#38bdf8',
+              tension: 0.3
+            },
+            {
+              label: 'Collaboration Score',
+              data: [0.58, 0.63, 0.6, 0.65, 0.67, 0.69, 0.7, 0.72, 0.71, 0.73],
+              yAxisID: 'y1',
+              borderColor: '#c084fc',
+              backgroundColor: 'rgba(192, 132, 252, 0.1)',
+              tension: 0.3
+            }
+          ]
+        },
+        options: {
+          plugins: { legend: { display: true } },
+          scales: {
+            x: { grid: { display: false } },
+            y: { grid: { color: 'rgba(255,255,255,0.04)' } },
+            y1: {
+              position: 'right',
+              grid: { display: false },
+              min: 0.5,
+              max: 0.8,
+              ticks: { stepSize: 0.05 }
+            }
+          }
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,372 @@
+{
+  "nodes": [
+    {
+      "id": "Agent Aurora"
+    },
+    {
+      "id": "Agent Bolt"
+    },
+    {
+      "id": "Agent Circuit"
+    },
+    {
+      "id": "Agent Delta"
+    },
+    {
+      "id": "Agent Echo"
+    },
+    {
+      "id": "Agent Flux"
+    },
+    {
+      "id": "Agent Glimmer"
+    },
+    {
+      "id": "Agent Halo"
+    },
+    {
+      "id": "Agent Ops"
+    },
+    {
+      "id": "Agent Pulse"
+    },
+    {
+      "id": "Agent Quanta"
+    },
+    {
+      "id": "Agent Relay"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Agent Aurora",
+      "target": "Agent Pulse",
+      "weight": 19
+    },
+    {
+      "source": "Agent Aurora",
+      "target": "Agent Relay",
+      "weight": 18
+    },
+    {
+      "source": "Agent Echo",
+      "target": "Agent Halo",
+      "weight": 18
+    },
+    {
+      "source": "Agent Bolt",
+      "target": "Agent Relay",
+      "weight": 17
+    },
+    {
+      "source": "Agent Quanta",
+      "target": "Agent Relay",
+      "weight": 17
+    },
+    {
+      "source": "Agent Bolt",
+      "target": "Agent Delta",
+      "weight": 15
+    },
+    {
+      "source": "Agent Circuit",
+      "target": "Agent Pulse",
+      "weight": 15
+    },
+    {
+      "source": "Agent Echo",
+      "target": "Agent Pulse",
+      "weight": 15
+    },
+    {
+      "source": "Agent Glimmer",
+      "target": "Agent Relay",
+      "weight": 15
+    },
+    {
+      "source": "Agent Halo",
+      "target": "Agent Quanta",
+      "weight": 15
+    },
+    {
+      "source": "Agent Halo",
+      "target": "Agent Relay",
+      "weight": 15
+    },
+    {
+      "source": "Agent Bolt",
+      "target": "Agent Pulse",
+      "weight": 14
+    },
+    {
+      "source": "Agent Flux",
+      "target": "Agent Relay",
+      "weight": 14
+    },
+    {
+      "source": "Agent Aurora",
+      "target": "Agent Ops",
+      "weight": 13
+    },
+    {
+      "source": "Agent Bolt",
+      "target": "Agent Halo",
+      "weight": 13
+    },
+    {
+      "source": "Agent Bolt",
+      "target": "Agent Ops",
+      "weight": 13
+    },
+    {
+      "source": "Agent Flux",
+      "target": "Agent Pulse",
+      "weight": 13
+    },
+    {
+      "source": "Agent Glimmer",
+      "target": "Agent Quanta",
+      "weight": 13
+    },
+    {
+      "source": "Agent Pulse",
+      "target": "Agent Relay",
+      "weight": 13
+    },
+    {
+      "source": "Agent Aurora",
+      "target": "Agent Flux",
+      "weight": 12
+    },
+    {
+      "source": "Agent Flux",
+      "target": "Agent Halo",
+      "weight": 12
+    },
+    {
+      "source": "Agent Glimmer",
+      "target": "Agent Ops",
+      "weight": 12
+    },
+    {
+      "source": "Agent Halo",
+      "target": "Agent Pulse",
+      "weight": 12
+    },
+    {
+      "source": "Agent Aurora",
+      "target": "Agent Bolt",
+      "weight": 11
+    },
+    {
+      "source": "Agent Bolt",
+      "target": "Agent Flux",
+      "weight": 11
+    },
+    {
+      "source": "Agent Bolt",
+      "target": "Agent Glimmer",
+      "weight": 11
+    },
+    {
+      "source": "Agent Circuit",
+      "target": "Agent Glimmer",
+      "weight": 11
+    },
+    {
+      "source": "Agent Circuit",
+      "target": "Agent Relay",
+      "weight": 11
+    },
+    {
+      "source": "Agent Delta",
+      "target": "Agent Quanta",
+      "weight": 11
+    },
+    {
+      "source": "Agent Delta",
+      "target": "Agent Relay",
+      "weight": 11
+    },
+    {
+      "source": "Agent Echo",
+      "target": "Agent Flux",
+      "weight": 11
+    },
+    {
+      "source": "Agent Flux",
+      "target": "Agent Ops",
+      "weight": 11
+    },
+    {
+      "source": "Agent Ops",
+      "target": "Agent Quanta",
+      "weight": 11
+    },
+    {
+      "source": "Agent Aurora",
+      "target": "Agent Halo",
+      "weight": 10
+    },
+    {
+      "source": "Agent Circuit",
+      "target": "Agent Flux",
+      "weight": 10
+    },
+    {
+      "source": "Agent Echo",
+      "target": "Agent Relay",
+      "weight": 10
+    },
+    {
+      "source": "Agent Halo",
+      "target": "Agent Ops",
+      "weight": 10
+    },
+    {
+      "source": "Agent Pulse",
+      "target": "Agent Quanta",
+      "weight": 10
+    },
+    {
+      "source": "Agent Aurora",
+      "target": "Agent Echo",
+      "weight": 9
+    },
+    {
+      "source": "Agent Bolt",
+      "target": "Agent Quanta",
+      "weight": 9
+    },
+    {
+      "source": "Agent Circuit",
+      "target": "Agent Delta",
+      "weight": 9
+    },
+    {
+      "source": "Agent Flux",
+      "target": "Agent Quanta",
+      "weight": 9
+    },
+    {
+      "source": "Agent Delta",
+      "target": "Agent Ops",
+      "weight": 8
+    },
+    {
+      "source": "Agent Delta",
+      "target": "Agent Pulse",
+      "weight": 8
+    },
+    {
+      "source": "Agent Delta",
+      "target": "Agent Echo",
+      "weight": 7
+    },
+    {
+      "source": "Agent Delta",
+      "target": "Agent Flux",
+      "weight": 7
+    },
+    {
+      "source": "Agent Delta",
+      "target": "Agent Glimmer",
+      "weight": 7
+    },
+    {
+      "source": "Agent Glimmer",
+      "target": "Agent Pulse",
+      "weight": 7
+    },
+    {
+      "source": "Agent Ops",
+      "target": "Agent Pulse",
+      "weight": 7
+    },
+    {
+      "source": "Agent Aurora",
+      "target": "Agent Circuit",
+      "weight": 6
+    },
+    {
+      "source": "Agent Aurora",
+      "target": "Agent Glimmer",
+      "weight": 6
+    },
+    {
+      "source": "Agent Aurora",
+      "target": "Agent Quanta",
+      "weight": 6
+    },
+    {
+      "source": "Agent Circuit",
+      "target": "Agent Halo",
+      "weight": 6
+    },
+    {
+      "source": "Agent Circuit",
+      "target": "Agent Quanta",
+      "weight": 6
+    },
+    {
+      "source": "Agent Delta",
+      "target": "Agent Halo",
+      "weight": 6
+    },
+    {
+      "source": "Agent Flux",
+      "target": "Agent Glimmer",
+      "weight": 6
+    },
+    {
+      "source": "Agent Bolt",
+      "target": "Agent Circuit",
+      "weight": 5
+    },
+    {
+      "source": "Agent Echo",
+      "target": "Agent Ops",
+      "weight": 5
+    },
+    {
+      "source": "Agent Glimmer",
+      "target": "Agent Halo",
+      "weight": 5
+    },
+    {
+      "source": "Agent Aurora",
+      "target": "Agent Delta",
+      "weight": 4
+    },
+    {
+      "source": "Agent Circuit",
+      "target": "Agent Ops",
+      "weight": 4
+    },
+    {
+      "source": "Agent Echo",
+      "target": "Agent Glimmer",
+      "weight": 4
+    },
+    {
+      "source": "Agent Ops",
+      "target": "Agent Relay",
+      "weight": 4
+    },
+    {
+      "source": "Agent Bolt",
+      "target": "Agent Echo",
+      "weight": 3
+    },
+    {
+      "source": "Agent Circuit",
+      "target": "Agent Echo",
+      "weight": 3
+    },
+    {
+      "source": "Agent Echo",
+      "target": "Agent Quanta",
+      "weight": 3
+    }
+  ]
+}

@@ -1,0 +1,2249 @@
+[
+  {
+    "date": "2025-04-02",
+    "total": 41,
+    "pull_requests": 20,
+    "reviews": 11,
+    "discussions": 10
+  },
+  {
+    "date": "2025-04-03",
+    "total": 45,
+    "pull_requests": 21,
+    "reviews": 18,
+    "discussions": 6
+  },
+  {
+    "date": "2025-04-04",
+    "total": 41,
+    "pull_requests": 18,
+    "reviews": 10,
+    "discussions": 13
+  },
+  {
+    "date": "2025-04-05",
+    "total": 29,
+    "pull_requests": 12,
+    "reviews": 12,
+    "discussions": 5
+  },
+  {
+    "date": "2025-04-06",
+    "total": 34,
+    "pull_requests": 17,
+    "reviews": 11,
+    "discussions": 6
+  },
+  {
+    "date": "2025-04-07",
+    "total": 42,
+    "pull_requests": 21,
+    "reviews": 17,
+    "discussions": 4
+  },
+  {
+    "date": "2025-04-08",
+    "total": 50,
+    "pull_requests": 18,
+    "reviews": 17,
+    "discussions": 15
+  },
+  {
+    "date": "2025-04-09",
+    "total": 53,
+    "pull_requests": 26,
+    "reviews": 19,
+    "discussions": 8
+  },
+  {
+    "date": "2025-04-10",
+    "total": 52,
+    "pull_requests": 24,
+    "reviews": 16,
+    "discussions": 12
+  },
+  {
+    "date": "2025-04-11",
+    "total": 42,
+    "pull_requests": 15,
+    "reviews": 18,
+    "discussions": 9
+  },
+  {
+    "date": "2025-04-12",
+    "total": 38,
+    "pull_requests": 15,
+    "reviews": 16,
+    "discussions": 7
+  },
+  {
+    "date": "2025-04-13",
+    "total": 37,
+    "pull_requests": 13,
+    "reviews": 15,
+    "discussions": 9
+  },
+  {
+    "date": "2025-04-14",
+    "total": 52,
+    "pull_requests": 27,
+    "reviews": 20,
+    "discussions": 5
+  },
+  {
+    "date": "2025-04-15",
+    "total": 52,
+    "pull_requests": 24,
+    "reviews": 21,
+    "discussions": 7
+  },
+  {
+    "date": "2025-04-16",
+    "total": 63,
+    "pull_requests": 26,
+    "reviews": 22,
+    "discussions": 15
+  },
+  {
+    "date": "2025-04-17",
+    "total": 58,
+    "pull_requests": 22,
+    "reviews": 24,
+    "discussions": 12
+  },
+  {
+    "date": "2025-04-18",
+    "total": 55,
+    "pull_requests": 19,
+    "reviews": 20,
+    "discussions": 16
+  },
+  {
+    "date": "2025-04-19",
+    "total": 35,
+    "pull_requests": 13,
+    "reviews": 12,
+    "discussions": 10
+  },
+  {
+    "date": "2025-04-20",
+    "total": 45,
+    "pull_requests": 20,
+    "reviews": 12,
+    "discussions": 13
+  },
+  {
+    "date": "2025-04-21",
+    "total": 54,
+    "pull_requests": 27,
+    "reviews": 23,
+    "discussions": 4
+  },
+  {
+    "date": "2025-04-22",
+    "total": 62,
+    "pull_requests": 22,
+    "reviews": 27,
+    "discussions": 13
+  },
+  {
+    "date": "2025-04-23",
+    "total": 62,
+    "pull_requests": 22,
+    "reviews": 17,
+    "discussions": 23
+  },
+  {
+    "date": "2025-04-24",
+    "total": 53,
+    "pull_requests": 25,
+    "reviews": 14,
+    "discussions": 14
+  },
+  {
+    "date": "2025-04-25",
+    "total": 56,
+    "pull_requests": 20,
+    "reviews": 19,
+    "discussions": 17
+  },
+  {
+    "date": "2025-04-26",
+    "total": 36,
+    "pull_requests": 12,
+    "reviews": 9,
+    "discussions": 15
+  },
+  {
+    "date": "2025-04-27",
+    "total": 45,
+    "pull_requests": 24,
+    "reviews": 12,
+    "discussions": 9
+  },
+  {
+    "date": "2025-04-28",
+    "total": 57,
+    "pull_requests": 31,
+    "reviews": 24,
+    "discussions": 2
+  },
+  {
+    "date": "2025-04-29",
+    "total": 63,
+    "pull_requests": 26,
+    "reviews": 24,
+    "discussions": 13
+  },
+  {
+    "date": "2025-04-30",
+    "total": 60,
+    "pull_requests": 32,
+    "reviews": 23,
+    "discussions": 5
+  },
+  {
+    "date": "2025-05-01",
+    "total": 61,
+    "pull_requests": 31,
+    "reviews": 19,
+    "discussions": 11
+  },
+  {
+    "date": "2025-05-02",
+    "total": 53,
+    "pull_requests": 19,
+    "reviews": 15,
+    "discussions": 19
+  },
+  {
+    "date": "2025-05-03",
+    "total": 41,
+    "pull_requests": 17,
+    "reviews": 15,
+    "discussions": 9
+  },
+  {
+    "date": "2025-05-04",
+    "total": 39,
+    "pull_requests": 15,
+    "reviews": 14,
+    "discussions": 10
+  },
+  {
+    "date": "2025-05-05",
+    "total": 56,
+    "pull_requests": 23,
+    "reviews": 17,
+    "discussions": 16
+  },
+  {
+    "date": "2025-05-06",
+    "total": 51,
+    "pull_requests": 19,
+    "reviews": 21,
+    "discussions": 11
+  },
+  {
+    "date": "2025-05-07",
+    "total": 58,
+    "pull_requests": 31,
+    "reviews": 22,
+    "discussions": 5
+  },
+  {
+    "date": "2025-05-08",
+    "total": 58,
+    "pull_requests": 22,
+    "reviews": 16,
+    "discussions": 20
+  },
+  {
+    "date": "2025-05-09",
+    "total": 43,
+    "pull_requests": 18,
+    "reviews": 19,
+    "discussions": 6
+  },
+  {
+    "date": "2025-05-10",
+    "total": 29,
+    "pull_requests": 12,
+    "reviews": 7,
+    "discussions": 10
+  },
+  {
+    "date": "2025-05-11",
+    "total": 29,
+    "pull_requests": 13,
+    "reviews": 10,
+    "discussions": 6
+  },
+  {
+    "date": "2025-05-12",
+    "total": 46,
+    "pull_requests": 24,
+    "reviews": 19,
+    "discussions": 3
+  },
+  {
+    "date": "2025-05-13",
+    "total": 55,
+    "pull_requests": 25,
+    "reviews": 16,
+    "discussions": 14
+  },
+  {
+    "date": "2025-05-14",
+    "total": 45,
+    "pull_requests": 22,
+    "reviews": 12,
+    "discussions": 11
+  },
+  {
+    "date": "2025-05-15",
+    "total": 40,
+    "pull_requests": 19,
+    "reviews": 10,
+    "discussions": 11
+  },
+  {
+    "date": "2025-05-16",
+    "total": 43,
+    "pull_requests": 16,
+    "reviews": 14,
+    "discussions": 13
+  },
+  {
+    "date": "2025-05-17",
+    "total": 22,
+    "pull_requests": 9,
+    "reviews": 6,
+    "discussions": 7
+  },
+  {
+    "date": "2025-05-18",
+    "total": 27,
+    "pull_requests": 10,
+    "reviews": 9,
+    "discussions": 8
+  },
+  {
+    "date": "2025-05-19",
+    "total": 42,
+    "pull_requests": 16,
+    "reviews": 10,
+    "discussions": 16
+  },
+  {
+    "date": "2025-05-20",
+    "total": 40,
+    "pull_requests": 19,
+    "reviews": 12,
+    "discussions": 9
+  },
+  {
+    "date": "2025-05-21",
+    "total": 45,
+    "pull_requests": 16,
+    "reviews": 17,
+    "discussions": 12
+  },
+  {
+    "date": "2025-05-22",
+    "total": 35,
+    "pull_requests": 13,
+    "reviews": 13,
+    "discussions": 9
+  },
+  {
+    "date": "2025-05-23",
+    "total": 35,
+    "pull_requests": 16,
+    "reviews": 10,
+    "discussions": 9
+  },
+  {
+    "date": "2025-05-24",
+    "total": 26,
+    "pull_requests": 10,
+    "reviews": 9,
+    "discussions": 7
+  },
+  {
+    "date": "2025-05-25",
+    "total": 25,
+    "pull_requests": 13,
+    "reviews": 10,
+    "discussions": 2
+  },
+  {
+    "date": "2025-05-26",
+    "total": 35,
+    "pull_requests": 18,
+    "reviews": 13,
+    "discussions": 4
+  },
+  {
+    "date": "2025-05-27",
+    "total": 39,
+    "pull_requests": 17,
+    "reviews": 14,
+    "discussions": 8
+  },
+  {
+    "date": "2025-05-28",
+    "total": 33,
+    "pull_requests": 17,
+    "reviews": 12,
+    "discussions": 4
+  },
+  {
+    "date": "2025-05-29",
+    "total": 38,
+    "pull_requests": 17,
+    "reviews": 9,
+    "discussions": 12
+  },
+  {
+    "date": "2025-05-30",
+    "total": 26,
+    "pull_requests": 13,
+    "reviews": 10,
+    "discussions": 3
+  },
+  {
+    "date": "2025-05-31",
+    "total": 26,
+    "pull_requests": 13,
+    "reviews": 7,
+    "discussions": 6
+  },
+  {
+    "date": "2025-06-01",
+    "total": 28,
+    "pull_requests": 13,
+    "reviews": 11,
+    "discussions": 4
+  },
+  {
+    "date": "2025-06-02",
+    "total": 30,
+    "pull_requests": 12,
+    "reviews": 10,
+    "discussions": 8
+  },
+  {
+    "date": "2025-06-03",
+    "total": 32,
+    "pull_requests": 13,
+    "reviews": 10,
+    "discussions": 9
+  },
+  {
+    "date": "2025-06-04",
+    "total": 33,
+    "pull_requests": 13,
+    "reviews": 9,
+    "discussions": 11
+  },
+  {
+    "date": "2025-06-05",
+    "total": 35,
+    "pull_requests": 14,
+    "reviews": 11,
+    "discussions": 10
+  },
+  {
+    "date": "2025-06-06",
+    "total": 32,
+    "pull_requests": 15,
+    "reviews": 10,
+    "discussions": 7
+  },
+  {
+    "date": "2025-06-07",
+    "total": 17,
+    "pull_requests": 8,
+    "reviews": 5,
+    "discussions": 4
+  },
+  {
+    "date": "2025-06-08",
+    "total": 21,
+    "pull_requests": 8,
+    "reviews": 9,
+    "discussions": 4
+  },
+  {
+    "date": "2025-06-09",
+    "total": 26,
+    "pull_requests": 12,
+    "reviews": 9,
+    "discussions": 5
+  },
+  {
+    "date": "2025-06-10",
+    "total": 26,
+    "pull_requests": 10,
+    "reviews": 11,
+    "discussions": 5
+  },
+  {
+    "date": "2025-06-11",
+    "total": 36,
+    "pull_requests": 14,
+    "reviews": 10,
+    "discussions": 12
+  },
+  {
+    "date": "2025-06-12",
+    "total": 37,
+    "pull_requests": 17,
+    "reviews": 14,
+    "discussions": 6
+  },
+  {
+    "date": "2025-06-13",
+    "total": 34,
+    "pull_requests": 13,
+    "reviews": 11,
+    "discussions": 10
+  },
+  {
+    "date": "2025-06-14",
+    "total": 25,
+    "pull_requests": 9,
+    "reviews": 7,
+    "discussions": 9
+  },
+  {
+    "date": "2025-06-15",
+    "total": 27,
+    "pull_requests": 13,
+    "reviews": 9,
+    "discussions": 5
+  },
+  {
+    "date": "2025-06-16",
+    "total": 26,
+    "pull_requests": 13,
+    "reviews": 8,
+    "discussions": 5
+  },
+  {
+    "date": "2025-06-17",
+    "total": 37,
+    "pull_requests": 14,
+    "reviews": 10,
+    "discussions": 13
+  },
+  {
+    "date": "2025-06-18",
+    "total": 38,
+    "pull_requests": 16,
+    "reviews": 12,
+    "discussions": 10
+  },
+  {
+    "date": "2025-06-19",
+    "total": 34,
+    "pull_requests": 15,
+    "reviews": 11,
+    "discussions": 8
+  },
+  {
+    "date": "2025-06-20",
+    "total": 34,
+    "pull_requests": 12,
+    "reviews": 13,
+    "discussions": 9
+  },
+  {
+    "date": "2025-06-21",
+    "total": 23,
+    "pull_requests": 11,
+    "reviews": 7,
+    "discussions": 5
+  },
+  {
+    "date": "2025-06-22",
+    "total": 27,
+    "pull_requests": 10,
+    "reviews": 10,
+    "discussions": 7
+  },
+  {
+    "date": "2025-06-23",
+    "total": 37,
+    "pull_requests": 16,
+    "reviews": 12,
+    "discussions": 9
+  },
+  {
+    "date": "2025-06-24",
+    "total": 44,
+    "pull_requests": 18,
+    "reviews": 11,
+    "discussions": 15
+  },
+  {
+    "date": "2025-06-25",
+    "total": 39,
+    "pull_requests": 13,
+    "reviews": 16,
+    "discussions": 10
+  },
+  {
+    "date": "2025-06-26",
+    "total": 44,
+    "pull_requests": 17,
+    "reviews": 16,
+    "discussions": 11
+  },
+  {
+    "date": "2025-06-27",
+    "total": 33,
+    "pull_requests": 17,
+    "reviews": 10,
+    "discussions": 6
+  },
+  {
+    "date": "2025-06-28",
+    "total": 21,
+    "pull_requests": 10,
+    "reviews": 5,
+    "discussions": 6
+  },
+  {
+    "date": "2025-06-29",
+    "total": 34,
+    "pull_requests": 18,
+    "reviews": 12,
+    "discussions": 4
+  },
+  {
+    "date": "2025-06-30",
+    "total": 38,
+    "pull_requests": 19,
+    "reviews": 9,
+    "discussions": 10
+  },
+  {
+    "date": "2025-07-01",
+    "total": 41,
+    "pull_requests": 16,
+    "reviews": 10,
+    "discussions": 15
+  },
+  {
+    "date": "2025-07-02",
+    "total": 52,
+    "pull_requests": 25,
+    "reviews": 21,
+    "discussions": 6
+  },
+  {
+    "date": "2025-07-03",
+    "total": 48,
+    "pull_requests": 18,
+    "reviews": 14,
+    "discussions": 16
+  },
+  {
+    "date": "2025-07-04",
+    "total": 44,
+    "pull_requests": 22,
+    "reviews": 16,
+    "discussions": 6
+  },
+  {
+    "date": "2025-07-05",
+    "total": 29,
+    "pull_requests": 14,
+    "reviews": 9,
+    "discussions": 6
+  },
+  {
+    "date": "2025-07-06",
+    "total": 35,
+    "pull_requests": 18,
+    "reviews": 13,
+    "discussions": 4
+  },
+  {
+    "date": "2025-07-07",
+    "total": 46,
+    "pull_requests": 21,
+    "reviews": 13,
+    "discussions": 12
+  },
+  {
+    "date": "2025-07-08",
+    "total": 51,
+    "pull_requests": 26,
+    "reviews": 17,
+    "discussions": 8
+  },
+  {
+    "date": "2025-07-09",
+    "total": 48,
+    "pull_requests": 24,
+    "reviews": 13,
+    "discussions": 11
+  },
+  {
+    "date": "2025-07-10",
+    "total": 47,
+    "pull_requests": 21,
+    "reviews": 18,
+    "discussions": 8
+  },
+  {
+    "date": "2025-07-11",
+    "total": 44,
+    "pull_requests": 19,
+    "reviews": 15,
+    "discussions": 10
+  },
+  {
+    "date": "2025-07-12",
+    "total": 30,
+    "pull_requests": 14,
+    "reviews": 9,
+    "discussions": 7
+  },
+  {
+    "date": "2025-07-13",
+    "total": 40,
+    "pull_requests": 18,
+    "reviews": 14,
+    "discussions": 8
+  },
+  {
+    "date": "2025-07-14",
+    "total": 48,
+    "pull_requests": 24,
+    "reviews": 12,
+    "discussions": 12
+  },
+  {
+    "date": "2025-07-15",
+    "total": 55,
+    "pull_requests": 20,
+    "reviews": 14,
+    "discussions": 21
+  },
+  {
+    "date": "2025-07-16",
+    "total": 53,
+    "pull_requests": 24,
+    "reviews": 14,
+    "discussions": 15
+  },
+  {
+    "date": "2025-07-17",
+    "total": 52,
+    "pull_requests": 22,
+    "reviews": 20,
+    "discussions": 10
+  },
+  {
+    "date": "2025-07-18",
+    "total": 48,
+    "pull_requests": 23,
+    "reviews": 17,
+    "discussions": 8
+  },
+  {
+    "date": "2025-07-19",
+    "total": 42,
+    "pull_requests": 21,
+    "reviews": 18,
+    "discussions": 3
+  },
+  {
+    "date": "2025-07-20",
+    "total": 38,
+    "pull_requests": 20,
+    "reviews": 11,
+    "discussions": 7
+  },
+  {
+    "date": "2025-07-21",
+    "total": 51,
+    "pull_requests": 22,
+    "reviews": 12,
+    "discussions": 17
+  },
+  {
+    "date": "2025-07-22",
+    "total": 62,
+    "pull_requests": 22,
+    "reviews": 23,
+    "discussions": 17
+  },
+  {
+    "date": "2025-07-23",
+    "total": 56,
+    "pull_requests": 24,
+    "reviews": 16,
+    "discussions": 16
+  },
+  {
+    "date": "2025-07-24",
+    "total": 63,
+    "pull_requests": 25,
+    "reviews": 20,
+    "discussions": 18
+  },
+  {
+    "date": "2025-07-25",
+    "total": 50,
+    "pull_requests": 18,
+    "reviews": 18,
+    "discussions": 14
+  },
+  {
+    "date": "2025-07-26",
+    "total": 34,
+    "pull_requests": 13,
+    "reviews": 10,
+    "discussions": 11
+  },
+  {
+    "date": "2025-07-27",
+    "total": 38,
+    "pull_requests": 19,
+    "reviews": 11,
+    "discussions": 8
+  },
+  {
+    "date": "2025-07-28",
+    "total": 49,
+    "pull_requests": 20,
+    "reviews": 17,
+    "discussions": 12
+  },
+  {
+    "date": "2025-07-29",
+    "total": 56,
+    "pull_requests": 20,
+    "reviews": 18,
+    "discussions": 18
+  },
+  {
+    "date": "2025-07-30",
+    "total": 65,
+    "pull_requests": 34,
+    "reviews": 22,
+    "discussions": 9
+  },
+  {
+    "date": "2025-07-31",
+    "total": 55,
+    "pull_requests": 21,
+    "reviews": 21,
+    "discussions": 13
+  },
+  {
+    "date": "2025-08-01",
+    "total": 53,
+    "pull_requests": 21,
+    "reviews": 19,
+    "discussions": 13
+  },
+  {
+    "date": "2025-08-02",
+    "total": 30,
+    "pull_requests": 12,
+    "reviews": 9,
+    "discussions": 9
+  },
+  {
+    "date": "2025-08-03",
+    "total": 41,
+    "pull_requests": 19,
+    "reviews": 14,
+    "discussions": 8
+  },
+  {
+    "date": "2025-08-04",
+    "total": 50,
+    "pull_requests": 23,
+    "reviews": 17,
+    "discussions": 10
+  },
+  {
+    "date": "2025-08-05",
+    "total": 51,
+    "pull_requests": 26,
+    "reviews": 20,
+    "discussions": 5
+  },
+  {
+    "date": "2025-08-06",
+    "total": 54,
+    "pull_requests": 23,
+    "reviews": 23,
+    "discussions": 8
+  },
+  {
+    "date": "2025-08-07",
+    "total": 46,
+    "pull_requests": 23,
+    "reviews": 13,
+    "discussions": 10
+  },
+  {
+    "date": "2025-08-08",
+    "total": 42,
+    "pull_requests": 17,
+    "reviews": 15,
+    "discussions": 10
+  },
+  {
+    "date": "2025-08-09",
+    "total": 30,
+    "pull_requests": 13,
+    "reviews": 10,
+    "discussions": 7
+  },
+  {
+    "date": "2025-08-10",
+    "total": 39,
+    "pull_requests": 18,
+    "reviews": 11,
+    "discussions": 10
+  },
+  {
+    "date": "2025-08-11",
+    "total": 47,
+    "pull_requests": 21,
+    "reviews": 14,
+    "discussions": 12
+  },
+  {
+    "date": "2025-08-12",
+    "total": 51,
+    "pull_requests": 17,
+    "reviews": 22,
+    "discussions": 12
+  },
+  {
+    "date": "2025-08-13",
+    "total": 53,
+    "pull_requests": 19,
+    "reviews": 20,
+    "discussions": 14
+  },
+  {
+    "date": "2025-08-14",
+    "total": 41,
+    "pull_requests": 22,
+    "reviews": 13,
+    "discussions": 6
+  },
+  {
+    "date": "2025-08-15",
+    "total": 43,
+    "pull_requests": 17,
+    "reviews": 16,
+    "discussions": 10
+  },
+  {
+    "date": "2025-08-16",
+    "total": 22,
+    "pull_requests": 11,
+    "reviews": 6,
+    "discussions": 5
+  },
+  {
+    "date": "2025-08-17",
+    "total": 25,
+    "pull_requests": 10,
+    "reviews": 8,
+    "discussions": 7
+  },
+  {
+    "date": "2025-08-18",
+    "total": 33,
+    "pull_requests": 12,
+    "reviews": 10,
+    "discussions": 11
+  },
+  {
+    "date": "2025-08-19",
+    "total": 42,
+    "pull_requests": 20,
+    "reviews": 11,
+    "discussions": 11
+  },
+  {
+    "date": "2025-08-20",
+    "total": 46,
+    "pull_requests": 19,
+    "reviews": 20,
+    "discussions": 7
+  },
+  {
+    "date": "2025-08-21",
+    "total": 37,
+    "pull_requests": 16,
+    "reviews": 11,
+    "discussions": 10
+  },
+  {
+    "date": "2025-08-22",
+    "total": 30,
+    "pull_requests": 16,
+    "reviews": 11,
+    "discussions": 3
+  },
+  {
+    "date": "2025-08-23",
+    "total": 27,
+    "pull_requests": 10,
+    "reviews": 9,
+    "discussions": 8
+  },
+  {
+    "date": "2025-08-24",
+    "total": 23,
+    "pull_requests": 9,
+    "reviews": 7,
+    "discussions": 7
+  },
+  {
+    "date": "2025-08-25",
+    "total": 35,
+    "pull_requests": 15,
+    "reviews": 13,
+    "discussions": 7
+  },
+  {
+    "date": "2025-08-26",
+    "total": 42,
+    "pull_requests": 19,
+    "reviews": 17,
+    "discussions": 6
+  },
+  {
+    "date": "2025-08-27",
+    "total": 42,
+    "pull_requests": 22,
+    "reviews": 13,
+    "discussions": 7
+  },
+  {
+    "date": "2025-08-28",
+    "total": 38,
+    "pull_requests": 18,
+    "reviews": 9,
+    "discussions": 11
+  },
+  {
+    "date": "2025-08-29",
+    "total": 34,
+    "pull_requests": 18,
+    "reviews": 14,
+    "discussions": 2
+  },
+  {
+    "date": "2025-08-30",
+    "total": 19,
+    "pull_requests": 9,
+    "reviews": 7,
+    "discussions": 3
+  },
+  {
+    "date": "2025-08-31",
+    "total": 22,
+    "pull_requests": 10,
+    "reviews": 7,
+    "discussions": 5
+  },
+  {
+    "date": "2025-09-01",
+    "total": 35,
+    "pull_requests": 15,
+    "reviews": 10,
+    "discussions": 10
+  },
+  {
+    "date": "2025-09-02",
+    "total": 32,
+    "pull_requests": 14,
+    "reviews": 10,
+    "discussions": 8
+  },
+  {
+    "date": "2025-09-03",
+    "total": 31,
+    "pull_requests": 14,
+    "reviews": 9,
+    "discussions": 8
+  },
+  {
+    "date": "2025-09-04",
+    "total": 31,
+    "pull_requests": 11,
+    "reviews": 9,
+    "discussions": 11
+  },
+  {
+    "date": "2025-09-05",
+    "total": 23,
+    "pull_requests": 10,
+    "reviews": 7,
+    "discussions": 6
+  },
+  {
+    "date": "2025-09-06",
+    "total": 18,
+    "pull_requests": 6,
+    "reviews": 8,
+    "discussions": 4
+  },
+  {
+    "date": "2025-09-07",
+    "total": 18,
+    "pull_requests": 6,
+    "reviews": 6,
+    "discussions": 6
+  },
+  {
+    "date": "2025-09-08",
+    "total": 23,
+    "pull_requests": 10,
+    "reviews": 9,
+    "discussions": 4
+  },
+  {
+    "date": "2025-09-09",
+    "total": 27,
+    "pull_requests": 12,
+    "reviews": 11,
+    "discussions": 4
+  },
+  {
+    "date": "2025-09-10",
+    "total": 30,
+    "pull_requests": 11,
+    "reviews": 7,
+    "discussions": 12
+  },
+  {
+    "date": "2025-09-11",
+    "total": 34,
+    "pull_requests": 17,
+    "reviews": 11,
+    "discussions": 6
+  },
+  {
+    "date": "2025-09-12",
+    "total": 27,
+    "pull_requests": 14,
+    "reviews": 8,
+    "discussions": 5
+  },
+  {
+    "date": "2025-09-13",
+    "total": 24,
+    "pull_requests": 12,
+    "reviews": 8,
+    "discussions": 4
+  },
+  {
+    "date": "2025-09-14",
+    "total": 26,
+    "pull_requests": 10,
+    "reviews": 11,
+    "discussions": 5
+  },
+  {
+    "date": "2025-09-15",
+    "total": 34,
+    "pull_requests": 16,
+    "reviews": 14,
+    "discussions": 4
+  },
+  {
+    "date": "2025-09-16",
+    "total": 37,
+    "pull_requests": 19,
+    "reviews": 11,
+    "discussions": 7
+  },
+  {
+    "date": "2025-09-17",
+    "total": 35,
+    "pull_requests": 18,
+    "reviews": 11,
+    "discussions": 6
+  },
+  {
+    "date": "2025-09-18",
+    "total": 33,
+    "pull_requests": 16,
+    "reviews": 10,
+    "discussions": 7
+  },
+  {
+    "date": "2025-09-19",
+    "total": 31,
+    "pull_requests": 14,
+    "reviews": 8,
+    "discussions": 9
+  },
+  {
+    "date": "2025-09-20",
+    "total": 27,
+    "pull_requests": 12,
+    "reviews": 7,
+    "discussions": 8
+  },
+  {
+    "date": "2025-09-21",
+    "total": 21,
+    "pull_requests": 8,
+    "reviews": 7,
+    "discussions": 6
+  },
+  {
+    "date": "2025-09-22",
+    "total": 39,
+    "pull_requests": 19,
+    "reviews": 15,
+    "discussions": 5
+  },
+  {
+    "date": "2025-09-23",
+    "total": 43,
+    "pull_requests": 19,
+    "reviews": 11,
+    "discussions": 13
+  },
+  {
+    "date": "2025-09-24",
+    "total": 40,
+    "pull_requests": 19,
+    "reviews": 10,
+    "discussions": 11
+  },
+  {
+    "date": "2025-09-25",
+    "total": 37,
+    "pull_requests": 13,
+    "reviews": 11,
+    "discussions": 13
+  },
+  {
+    "date": "2025-09-26",
+    "total": 36,
+    "pull_requests": 16,
+    "reviews": 10,
+    "discussions": 10
+  },
+  {
+    "date": "2025-09-27",
+    "total": 28,
+    "pull_requests": 10,
+    "reviews": 11,
+    "discussions": 7
+  },
+  {
+    "date": "2025-09-28",
+    "total": 34,
+    "pull_requests": 14,
+    "reviews": 14,
+    "discussions": 6
+  },
+  {
+    "date": "2025-09-29",
+    "total": 43,
+    "pull_requests": 19,
+    "reviews": 16,
+    "discussions": 8
+  },
+  {
+    "date": "2025-09-30",
+    "total": 46,
+    "pull_requests": 17,
+    "reviews": 19,
+    "discussions": 10
+  },
+  {
+    "date": "2025-10-01",
+    "total": 45,
+    "pull_requests": 23,
+    "reviews": 14,
+    "discussions": 8
+  },
+  {
+    "date": "2025-10-02",
+    "total": 48,
+    "pull_requests": 22,
+    "reviews": 15,
+    "discussions": 11
+  },
+  {
+    "date": "2025-10-03",
+    "total": 50,
+    "pull_requests": 25,
+    "reviews": 16,
+    "discussions": 9
+  },
+  {
+    "date": "2025-10-04",
+    "total": 29,
+    "pull_requests": 15,
+    "reviews": 12,
+    "discussions": 2
+  },
+  {
+    "date": "2025-10-05",
+    "total": 33,
+    "pull_requests": 12,
+    "reviews": 11,
+    "discussions": 10
+  },
+  {
+    "date": "2025-10-06",
+    "total": 47,
+    "pull_requests": 20,
+    "reviews": 17,
+    "discussions": 10
+  },
+  {
+    "date": "2025-10-07",
+    "total": 47,
+    "pull_requests": 21,
+    "reviews": 18,
+    "discussions": 8
+  },
+  {
+    "date": "2025-10-08",
+    "total": 56,
+    "pull_requests": 19,
+    "reviews": 20,
+    "discussions": 17
+  },
+  {
+    "date": "2025-10-09",
+    "total": 58,
+    "pull_requests": 28,
+    "reviews": 20,
+    "discussions": 10
+  },
+  {
+    "date": "2025-10-10",
+    "total": 47,
+    "pull_requests": 18,
+    "reviews": 16,
+    "discussions": 13
+  },
+  {
+    "date": "2025-10-11",
+    "total": 40,
+    "pull_requests": 15,
+    "reviews": 14,
+    "discussions": 11
+  },
+  {
+    "date": "2025-10-12",
+    "total": 38,
+    "pull_requests": 13,
+    "reviews": 11,
+    "discussions": 14
+  },
+  {
+    "date": "2025-10-13",
+    "total": 49,
+    "pull_requests": 18,
+    "reviews": 13,
+    "discussions": 18
+  },
+  {
+    "date": "2025-10-14",
+    "total": 61,
+    "pull_requests": 25,
+    "reviews": 23,
+    "discussions": 13
+  },
+  {
+    "date": "2025-10-15",
+    "total": 59,
+    "pull_requests": 26,
+    "reviews": 20,
+    "discussions": 13
+  },
+  {
+    "date": "2025-10-16",
+    "total": 51,
+    "pull_requests": 18,
+    "reviews": 14,
+    "discussions": 19
+  },
+  {
+    "date": "2025-10-17",
+    "total": 56,
+    "pull_requests": 27,
+    "reviews": 24,
+    "discussions": 5
+  },
+  {
+    "date": "2025-10-18",
+    "total": 39,
+    "pull_requests": 15,
+    "reviews": 14,
+    "discussions": 10
+  },
+  {
+    "date": "2025-10-19",
+    "total": 42,
+    "pull_requests": 17,
+    "reviews": 13,
+    "discussions": 12
+  },
+  {
+    "date": "2025-10-20",
+    "total": 58,
+    "pull_requests": 22,
+    "reviews": 14,
+    "discussions": 22
+  },
+  {
+    "date": "2025-10-21",
+    "total": 64,
+    "pull_requests": 26,
+    "reviews": 23,
+    "discussions": 15
+  },
+  {
+    "date": "2025-10-22",
+    "total": 67,
+    "pull_requests": 26,
+    "reviews": 20,
+    "discussions": 21
+  },
+  {
+    "date": "2025-10-23",
+    "total": 56,
+    "pull_requests": 22,
+    "reviews": 19,
+    "discussions": 15
+  },
+  {
+    "date": "2025-10-24",
+    "total": 47,
+    "pull_requests": 24,
+    "reviews": 21,
+    "discussions": 2
+  },
+  {
+    "date": "2025-10-25",
+    "total": 33,
+    "pull_requests": 14,
+    "reviews": 10,
+    "discussions": 9
+  },
+  {
+    "date": "2025-10-26",
+    "total": 42,
+    "pull_requests": 18,
+    "reviews": 17,
+    "discussions": 7
+  },
+  {
+    "date": "2025-10-27",
+    "total": 59,
+    "pull_requests": 23,
+    "reviews": 16,
+    "discussions": 20
+  },
+  {
+    "date": "2025-10-28",
+    "total": 59,
+    "pull_requests": 21,
+    "reviews": 19,
+    "discussions": 19
+  },
+  {
+    "date": "2025-10-29",
+    "total": 55,
+    "pull_requests": 28,
+    "reviews": 18,
+    "discussions": 9
+  },
+  {
+    "date": "2025-10-30",
+    "total": 59,
+    "pull_requests": 27,
+    "reviews": 23,
+    "discussions": 9
+  },
+  {
+    "date": "2025-10-31",
+    "total": 52,
+    "pull_requests": 26,
+    "reviews": 20,
+    "discussions": 6
+  },
+  {
+    "date": "2025-11-01",
+    "total": 38,
+    "pull_requests": 16,
+    "reviews": 10,
+    "discussions": 12
+  },
+  {
+    "date": "2025-11-02",
+    "total": 34,
+    "pull_requests": 17,
+    "reviews": 9,
+    "discussions": 8
+  },
+  {
+    "date": "2025-11-03",
+    "total": 53,
+    "pull_requests": 19,
+    "reviews": 13,
+    "discussions": 21
+  },
+  {
+    "date": "2025-11-04",
+    "total": 56,
+    "pull_requests": 27,
+    "reviews": 22,
+    "discussions": 7
+  },
+  {
+    "date": "2025-11-05",
+    "total": 53,
+    "pull_requests": 25,
+    "reviews": 21,
+    "discussions": 7
+  },
+  {
+    "date": "2025-11-06",
+    "total": 47,
+    "pull_requests": 17,
+    "reviews": 12,
+    "discussions": 18
+  },
+  {
+    "date": "2025-11-07",
+    "total": 43,
+    "pull_requests": 21,
+    "reviews": 12,
+    "discussions": 10
+  },
+  {
+    "date": "2025-11-08",
+    "total": 35,
+    "pull_requests": 16,
+    "reviews": 15,
+    "discussions": 4
+  },
+  {
+    "date": "2025-11-09",
+    "total": 31,
+    "pull_requests": 16,
+    "reviews": 12,
+    "discussions": 3
+  },
+  {
+    "date": "2025-11-10",
+    "total": 39,
+    "pull_requests": 15,
+    "reviews": 10,
+    "discussions": 14
+  },
+  {
+    "date": "2025-11-11",
+    "total": 45,
+    "pull_requests": 21,
+    "reviews": 19,
+    "discussions": 5
+  },
+  {
+    "date": "2025-11-12",
+    "total": 52,
+    "pull_requests": 21,
+    "reviews": 19,
+    "discussions": 12
+  },
+  {
+    "date": "2025-11-13",
+    "total": 44,
+    "pull_requests": 15,
+    "reviews": 13,
+    "discussions": 16
+  },
+  {
+    "date": "2025-11-14",
+    "total": 39,
+    "pull_requests": 17,
+    "reviews": 15,
+    "discussions": 7
+  },
+  {
+    "date": "2025-11-15",
+    "total": 25,
+    "pull_requests": 13,
+    "reviews": 10,
+    "discussions": 2
+  },
+  {
+    "date": "2025-11-16",
+    "total": 26,
+    "pull_requests": 9,
+    "reviews": 7,
+    "discussions": 10
+  },
+  {
+    "date": "2025-11-17",
+    "total": 36,
+    "pull_requests": 16,
+    "reviews": 12,
+    "discussions": 8
+  },
+  {
+    "date": "2025-11-18",
+    "total": 42,
+    "pull_requests": 20,
+    "reviews": 10,
+    "discussions": 12
+  },
+  {
+    "date": "2025-11-19",
+    "total": 36,
+    "pull_requests": 15,
+    "reviews": 12,
+    "discussions": 9
+  },
+  {
+    "date": "2025-11-20",
+    "total": 41,
+    "pull_requests": 20,
+    "reviews": 13,
+    "discussions": 8
+  },
+  {
+    "date": "2025-11-21",
+    "total": 35,
+    "pull_requests": 14,
+    "reviews": 12,
+    "discussions": 9
+  },
+  {
+    "date": "2025-11-22",
+    "total": 27,
+    "pull_requests": 13,
+    "reviews": 6,
+    "discussions": 8
+  },
+  {
+    "date": "2025-11-23",
+    "total": 27,
+    "pull_requests": 12,
+    "reviews": 11,
+    "discussions": 4
+  },
+  {
+    "date": "2025-11-24",
+    "total": 27,
+    "pull_requests": 9,
+    "reviews": 8,
+    "discussions": 10
+  },
+  {
+    "date": "2025-11-25",
+    "total": 41,
+    "pull_requests": 17,
+    "reviews": 14,
+    "discussions": 10
+  },
+  {
+    "date": "2025-11-26",
+    "total": 32,
+    "pull_requests": 14,
+    "reviews": 12,
+    "discussions": 6
+  },
+  {
+    "date": "2025-11-27",
+    "total": 31,
+    "pull_requests": 11,
+    "reviews": 11,
+    "discussions": 9
+  },
+  {
+    "date": "2025-11-28",
+    "total": 25,
+    "pull_requests": 8,
+    "reviews": 7,
+    "discussions": 10
+  },
+  {
+    "date": "2025-11-29",
+    "total": 19,
+    "pull_requests": 7,
+    "reviews": 8,
+    "discussions": 4
+  },
+  {
+    "date": "2025-11-30",
+    "total": 24,
+    "pull_requests": 12,
+    "reviews": 9,
+    "discussions": 3
+  },
+  {
+    "date": "2025-12-01",
+    "total": 27,
+    "pull_requests": 9,
+    "reviews": 6,
+    "discussions": 12
+  },
+  {
+    "date": "2025-12-02",
+    "total": 28,
+    "pull_requests": 11,
+    "reviews": 9,
+    "discussions": 8
+  },
+  {
+    "date": "2025-12-03",
+    "total": 36,
+    "pull_requests": 19,
+    "reviews": 15,
+    "discussions": 2
+  },
+  {
+    "date": "2025-12-04",
+    "total": 32,
+    "pull_requests": 15,
+    "reviews": 14,
+    "discussions": 3
+  },
+  {
+    "date": "2025-12-05",
+    "total": 33,
+    "pull_requests": 15,
+    "reviews": 12,
+    "discussions": 6
+  },
+  {
+    "date": "2025-12-06",
+    "total": 24,
+    "pull_requests": 12,
+    "reviews": 8,
+    "discussions": 4
+  },
+  {
+    "date": "2025-12-07",
+    "total": 22,
+    "pull_requests": 11,
+    "reviews": 6,
+    "discussions": 5
+  },
+  {
+    "date": "2025-12-08",
+    "total": 27,
+    "pull_requests": 14,
+    "reviews": 9,
+    "discussions": 4
+  },
+  {
+    "date": "2025-12-09",
+    "total": 33,
+    "pull_requests": 14,
+    "reviews": 8,
+    "discussions": 11
+  },
+  {
+    "date": "2025-12-10",
+    "total": 34,
+    "pull_requests": 17,
+    "reviews": 11,
+    "discussions": 6
+  },
+  {
+    "date": "2025-12-11",
+    "total": 27,
+    "pull_requests": 9,
+    "reviews": 7,
+    "discussions": 11
+  },
+  {
+    "date": "2025-12-12",
+    "total": 34,
+    "pull_requests": 16,
+    "reviews": 13,
+    "discussions": 5
+  },
+  {
+    "date": "2025-12-13",
+    "total": 25,
+    "pull_requests": 8,
+    "reviews": 8,
+    "discussions": 9
+  },
+  {
+    "date": "2025-12-14",
+    "total": 19,
+    "pull_requests": 7,
+    "reviews": 5,
+    "discussions": 7
+  },
+  {
+    "date": "2025-12-15",
+    "total": 32,
+    "pull_requests": 13,
+    "reviews": 8,
+    "discussions": 11
+  },
+  {
+    "date": "2025-12-16",
+    "total": 39,
+    "pull_requests": 20,
+    "reviews": 14,
+    "discussions": 5
+  },
+  {
+    "date": "2025-12-17",
+    "total": 41,
+    "pull_requests": 18,
+    "reviews": 11,
+    "discussions": 12
+  },
+  {
+    "date": "2025-12-18",
+    "total": 39,
+    "pull_requests": 17,
+    "reviews": 12,
+    "discussions": 10
+  },
+  {
+    "date": "2025-12-19",
+    "total": 28,
+    "pull_requests": 14,
+    "reviews": 8,
+    "discussions": 6
+  },
+  {
+    "date": "2025-12-20",
+    "total": 29,
+    "pull_requests": 11,
+    "reviews": 8,
+    "discussions": 10
+  },
+  {
+    "date": "2025-12-21",
+    "total": 28,
+    "pull_requests": 13,
+    "reviews": 12,
+    "discussions": 3
+  },
+  {
+    "date": "2025-12-22",
+    "total": 34,
+    "pull_requests": 12,
+    "reviews": 14,
+    "discussions": 8
+  },
+  {
+    "date": "2025-12-23",
+    "total": 39,
+    "pull_requests": 14,
+    "reviews": 12,
+    "discussions": 13
+  },
+  {
+    "date": "2025-12-24",
+    "total": 41,
+    "pull_requests": 14,
+    "reviews": 18,
+    "discussions": 9
+  },
+  {
+    "date": "2025-12-25",
+    "total": 46,
+    "pull_requests": 21,
+    "reviews": 15,
+    "discussions": 10
+  },
+  {
+    "date": "2025-12-26",
+    "total": 33,
+    "pull_requests": 15,
+    "reviews": 10,
+    "discussions": 8
+  },
+  {
+    "date": "2025-12-27",
+    "total": 31,
+    "pull_requests": 11,
+    "reviews": 9,
+    "discussions": 11
+  },
+  {
+    "date": "2025-12-28",
+    "total": 34,
+    "pull_requests": 18,
+    "reviews": 12,
+    "discussions": 4
+  },
+  {
+    "date": "2025-12-29",
+    "total": 40,
+    "pull_requests": 19,
+    "reviews": 17,
+    "discussions": 4
+  },
+  {
+    "date": "2025-12-30",
+    "total": 42,
+    "pull_requests": 16,
+    "reviews": 11,
+    "discussions": 15
+  },
+  {
+    "date": "2025-12-31",
+    "total": 51,
+    "pull_requests": 26,
+    "reviews": 16,
+    "discussions": 9
+  },
+  {
+    "date": "2026-01-01",
+    "total": 52,
+    "pull_requests": 18,
+    "reviews": 13,
+    "discussions": 21
+  },
+  {
+    "date": "2026-01-02",
+    "total": 41,
+    "pull_requests": 21,
+    "reviews": 15,
+    "discussions": 5
+  },
+  {
+    "date": "2026-01-03",
+    "total": 27,
+    "pull_requests": 13,
+    "reviews": 11,
+    "discussions": 3
+  },
+  {
+    "date": "2026-01-04",
+    "total": 34,
+    "pull_requests": 15,
+    "reviews": 14,
+    "discussions": 5
+  },
+  {
+    "date": "2026-01-05",
+    "total": 44,
+    "pull_requests": 17,
+    "reviews": 18,
+    "discussions": 9
+  },
+  {
+    "date": "2026-01-06",
+    "total": 51,
+    "pull_requests": 25,
+    "reviews": 13,
+    "discussions": 13
+  },
+  {
+    "date": "2026-01-07",
+    "total": 52,
+    "pull_requests": 22,
+    "reviews": 18,
+    "discussions": 12
+  },
+  {
+    "date": "2026-01-08",
+    "total": 51,
+    "pull_requests": 18,
+    "reviews": 13,
+    "discussions": 20
+  },
+  {
+    "date": "2026-01-09",
+    "total": 53,
+    "pull_requests": 21,
+    "reviews": 16,
+    "discussions": 16
+  },
+  {
+    "date": "2026-01-10",
+    "total": 38,
+    "pull_requests": 18,
+    "reviews": 12,
+    "discussions": 8
+  },
+  {
+    "date": "2026-01-11",
+    "total": 35,
+    "pull_requests": 15,
+    "reviews": 14,
+    "discussions": 6
+  },
+  {
+    "date": "2026-01-12",
+    "total": 54,
+    "pull_requests": 21,
+    "reviews": 17,
+    "discussions": 16
+  },
+  {
+    "date": "2026-01-13",
+    "total": 61,
+    "pull_requests": 32,
+    "reviews": 19,
+    "discussions": 10
+  },
+  {
+    "date": "2026-01-14",
+    "total": 59,
+    "pull_requests": 23,
+    "reviews": 21,
+    "discussions": 15
+  },
+  {
+    "date": "2026-01-15",
+    "total": 58,
+    "pull_requests": 29,
+    "reviews": 24,
+    "discussions": 5
+  },
+  {
+    "date": "2026-01-16",
+    "total": 56,
+    "pull_requests": 29,
+    "reviews": 19,
+    "discussions": 8
+  },
+  {
+    "date": "2026-01-17",
+    "total": 32,
+    "pull_requests": 16,
+    "reviews": 8,
+    "discussions": 8
+  },
+  {
+    "date": "2026-01-18",
+    "total": 35,
+    "pull_requests": 16,
+    "reviews": 13,
+    "discussions": 6
+  },
+  {
+    "date": "2026-01-19",
+    "total": 58,
+    "pull_requests": 23,
+    "reviews": 23,
+    "discussions": 12
+  },
+  {
+    "date": "2026-01-20",
+    "total": 59,
+    "pull_requests": 20,
+    "reviews": 23,
+    "discussions": 16
+  },
+  {
+    "date": "2026-01-21",
+    "total": 63,
+    "pull_requests": 26,
+    "reviews": 21,
+    "discussions": 16
+  },
+  {
+    "date": "2026-01-22",
+    "total": 53,
+    "pull_requests": 27,
+    "reviews": 15,
+    "discussions": 11
+  },
+  {
+    "date": "2026-01-23",
+    "total": 49,
+    "pull_requests": 24,
+    "reviews": 15,
+    "discussions": 10
+  },
+  {
+    "date": "2026-01-24",
+    "total": 38,
+    "pull_requests": 17,
+    "reviews": 13,
+    "discussions": 8
+  },
+  {
+    "date": "2026-01-25",
+    "total": 41,
+    "pull_requests": 18,
+    "reviews": 10,
+    "discussions": 13
+  },
+  {
+    "date": "2026-01-26",
+    "total": 53,
+    "pull_requests": 24,
+    "reviews": 13,
+    "discussions": 16
+  },
+  {
+    "date": "2026-01-27",
+    "total": 51,
+    "pull_requests": 27,
+    "reviews": 16,
+    "discussions": 8
+  },
+  {
+    "date": "2026-01-28",
+    "total": 54,
+    "pull_requests": 19,
+    "reviews": 18,
+    "discussions": 17
+  },
+  {
+    "date": "2026-01-29",
+    "total": 59,
+    "pull_requests": 30,
+    "reviews": 20,
+    "discussions": 9
+  },
+  {
+    "date": "2026-01-30",
+    "total": 52,
+    "pull_requests": 25,
+    "reviews": 20,
+    "discussions": 7
+  },
+  {
+    "date": "2026-01-31",
+    "total": 39,
+    "pull_requests": 16,
+    "reviews": 13,
+    "discussions": 10
+  },
+  {
+    "date": "2026-02-01",
+    "total": 40,
+    "pull_requests": 19,
+    "reviews": 16,
+    "discussions": 5
+  },
+  {
+    "date": "2026-02-02",
+    "total": 44,
+    "pull_requests": 21,
+    "reviews": 17,
+    "discussions": 6
+  },
+  {
+    "date": "2026-02-03",
+    "total": 54,
+    "pull_requests": 25,
+    "reviews": 16,
+    "discussions": 13
+  },
+  {
+    "date": "2026-02-04",
+    "total": 52,
+    "pull_requests": 20,
+    "reviews": 13,
+    "discussions": 19
+  },
+  {
+    "date": "2026-02-05",
+    "total": 45,
+    "pull_requests": 16,
+    "reviews": 20,
+    "discussions": 9
+  },
+  {
+    "date": "2026-02-06",
+    "total": 45,
+    "pull_requests": 24,
+    "reviews": 15,
+    "discussions": 6
+  },
+  {
+    "date": "2026-02-07",
+    "total": 33,
+    "pull_requests": 16,
+    "reviews": 8,
+    "discussions": 9
+  },
+  {
+    "date": "2026-02-08",
+    "total": 34,
+    "pull_requests": 12,
+    "reviews": 9,
+    "discussions": 13
+  },
+  {
+    "date": "2026-02-09",
+    "total": 40,
+    "pull_requests": 21,
+    "reviews": 16,
+    "discussions": 3
+  },
+  {
+    "date": "2026-02-10",
+    "total": 42,
+    "pull_requests": 17,
+    "reviews": 13,
+    "discussions": 12
+  },
+  {
+    "date": "2026-02-11",
+    "total": 43,
+    "pull_requests": 17,
+    "reviews": 14,
+    "discussions": 12
+  },
+  {
+    "date": "2026-02-12",
+    "total": 47,
+    "pull_requests": 25,
+    "reviews": 13,
+    "discussions": 9
+  },
+  {
+    "date": "2026-02-13",
+    "total": 41,
+    "pull_requests": 15,
+    "reviews": 18,
+    "discussions": 8
+  },
+  {
+    "date": "2026-02-14",
+    "total": 31,
+    "pull_requests": 14,
+    "reviews": 12,
+    "discussions": 5
+  },
+  {
+    "date": "2026-02-15",
+    "total": 26,
+    "pull_requests": 9,
+    "reviews": 9,
+    "discussions": 8
+  },
+  {
+    "date": "2026-02-16",
+    "total": 31,
+    "pull_requests": 16,
+    "reviews": 13,
+    "discussions": 2
+  }
+]

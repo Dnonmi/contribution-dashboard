@@ -1,0 +1,254 @@
+[
+  {
+    "month": "2023-03-19",
+    "total": 832,
+    "pull_requests": 366,
+    "reviews": 278,
+    "discussions": 188
+  },
+  {
+    "month": "2023-04-18",
+    "total": 896,
+    "pull_requests": 404,
+    "reviews": 293,
+    "discussions": 199
+  },
+  {
+    "month": "2023-05-18",
+    "total": 827,
+    "pull_requests": 362,
+    "reviews": 233,
+    "discussions": 232
+  },
+  {
+    "month": "2023-06-17",
+    "total": 762,
+    "pull_requests": 317,
+    "reviews": 301,
+    "discussions": 144
+  },
+  {
+    "month": "2023-07-17",
+    "total": 969,
+    "pull_requests": 442,
+    "reviews": 377,
+    "discussions": 150
+  },
+  {
+    "month": "2023-08-16",
+    "total": 1066,
+    "pull_requests": 489,
+    "reviews": 327,
+    "discussions": 250
+  },
+  {
+    "month": "2023-09-15",
+    "total": 917,
+    "pull_requests": 394,
+    "reviews": 362,
+    "discussions": 161
+  },
+  {
+    "month": "2023-10-15",
+    "total": 818,
+    "pull_requests": 353,
+    "reviews": 296,
+    "discussions": 169
+  },
+  {
+    "month": "2023-11-14",
+    "total": 850,
+    "pull_requests": 389,
+    "reviews": 315,
+    "discussions": 146
+  },
+  {
+    "month": "2023-12-14",
+    "total": 743,
+    "pull_requests": 369,
+    "reviews": 289,
+    "discussions": 85
+  },
+  {
+    "month": "2024-01-13",
+    "total": 693,
+    "pull_requests": 295,
+    "reviews": 224,
+    "discussions": 174
+  },
+  {
+    "month": "2024-02-12",
+    "total": 814,
+    "pull_requests": 370,
+    "reviews": 252,
+    "discussions": 192
+  },
+  {
+    "month": "2024-03-13",
+    "total": 978,
+    "pull_requests": 492,
+    "reviews": 382,
+    "discussions": 104
+  },
+  {
+    "month": "2024-04-12",
+    "total": 1079,
+    "pull_requests": 443,
+    "reviews": 398,
+    "discussions": 238
+  },
+  {
+    "month": "2024-05-12",
+    "total": 1040,
+    "pull_requests": 483,
+    "reviews": 375,
+    "discussions": 182
+  },
+  {
+    "month": "2024-06-11",
+    "total": 884,
+    "pull_requests": 431,
+    "reviews": 272,
+    "discussions": 181
+  },
+  {
+    "month": "2024-07-11",
+    "total": 1090,
+    "pull_requests": 454,
+    "reviews": 374,
+    "discussions": 262
+  },
+  {
+    "month": "2024-08-10",
+    "total": 1050,
+    "pull_requests": 444,
+    "reviews": 392,
+    "discussions": 214
+  },
+  {
+    "month": "2024-09-09",
+    "total": 979,
+    "pull_requests": 472,
+    "reviews": 368,
+    "discussions": 139
+  },
+  {
+    "month": "2024-10-09",
+    "total": 1001,
+    "pull_requests": 468,
+    "reviews": 305,
+    "discussions": 228
+  },
+  {
+    "month": "2024-11-08",
+    "total": 924,
+    "pull_requests": 475,
+    "reviews": 367,
+    "discussions": 82
+  },
+  {
+    "month": "2024-12-08",
+    "total": 875,
+    "pull_requests": 386,
+    "reviews": 348,
+    "discussions": 141
+  },
+  {
+    "month": "2025-01-07",
+    "total": 851,
+    "pull_requests": 419,
+    "reviews": 246,
+    "discussions": 186
+  },
+  {
+    "month": "2025-02-06",
+    "total": 885,
+    "pull_requests": 436,
+    "reviews": 305,
+    "discussions": 144
+  },
+  {
+    "month": "2025-03-08",
+    "total": 1098,
+    "pull_requests": 484,
+    "reviews": 428,
+    "discussions": 186
+  },
+  {
+    "month": "2025-04-07",
+    "total": 1064,
+    "pull_requests": 443,
+    "reviews": 380,
+    "discussions": 241
+  },
+  {
+    "month": "2025-05-07",
+    "total": 1106,
+    "pull_requests": 524,
+    "reviews": 372,
+    "discussions": 210
+  },
+  {
+    "month": "2025-06-06",
+    "total": 1041,
+    "pull_requests": 511,
+    "reviews": 330,
+    "discussions": 200
+  },
+  {
+    "month": "2025-07-06",
+    "total": 1120,
+    "pull_requests": 463,
+    "reviews": 360,
+    "discussions": 297
+  },
+  {
+    "month": "2025-08-05",
+    "total": 1306,
+    "pull_requests": 671,
+    "reviews": 474,
+    "discussions": 161
+  },
+  {
+    "month": "2025-09-04",
+    "total": 1068,
+    "pull_requests": 543,
+    "reviews": 315,
+    "discussions": 210
+  },
+  {
+    "month": "2025-10-04",
+    "total": 1029,
+    "pull_requests": 504,
+    "reviews": 330,
+    "discussions": 195
+  },
+  {
+    "month": "2025-11-03",
+    "total": 1002,
+    "pull_requests": 418,
+    "reviews": 280,
+    "discussions": 304
+  },
+  {
+    "month": "2025-12-03",
+    "total": 894,
+    "pull_requests": 348,
+    "reviews": 252,
+    "discussions": 294
+  },
+  {
+    "month": "2026-01-02",
+    "total": 857,
+    "pull_requests": 347,
+    "reviews": 292,
+    "discussions": 218
+  },
+  {
+    "month": "2026-02-01",
+    "total": 1007,
+    "pull_requests": 493,
+    "reviews": 380,
+    "discussions": 134
+  }
+]

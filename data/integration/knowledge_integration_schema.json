@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Knowledge Integration Schema",
+  "description": "Schema for integrating Time Capsule knowledge documents with Contribution Dashboard",
+  "type": "object",
+  "properties": {
+    "version": { "type": "string" },
+    "lastUpdated": { "type": "string", "format": "date-time" },
+    "knowledgeDocuments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "path": { "type": "string" },
+          "type": { "type": "string", "enum": ["decision_framework", "institutional_memory", "problem_solving"] },
+          "description": { "type": "string" },
+          "components": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "string" },
+                "title": { "type": "string" },
+                "description": { "type": "string" },
+                "dayRanges": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "start": { "type": "integer", "minimum": 1 },
+                      "end": { "type": "integer", "minimum": 1 }
+                    },
+                    "required": ["start", "end"]
+                  }
+                },
+                "goalIds": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "relatedDocuments": {
+                  "type": "array",
+                  "items": { 
+                    "type": "object",
+                    "properties": {
+                      "id": { "type": "string" },
+                      "relationship": { "type": "string", "enum": ["applies", "references", "informs", "derives_from"] }
+                    },
+                    "required": ["id", "relationship"]
+                  }
+                }
+              },
+              "required": ["id", "title", "dayRanges"]
+            }
+          }
+        },
+        "required": ["id", "title", "path", "type", "components"]
+      }
+    }
+  },
+  "required": ["version", "knowledgeDocuments"]
+}

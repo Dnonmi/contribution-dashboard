@@ -7,6 +7,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module">
+    import { KnowledgeIntegrator } from './js/knowledge-integration.js';
+    window.KnowledgeIntegration = { KnowledgeIntegrator };
+  </script>
   <style>
     :root {
       --bg: #0f172a;
@@ -225,6 +229,96 @@
         font-size: 1.8rem;
       }
     }
+    #knowledge-references {
+      margin-top: 24px;
+    }
+
+    #knowledge-references .knowledge-selection {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+
+    .knowledge-components {
+      display: grid;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .knowledge-component-card {
+      background: rgba(56, 189, 248, 0.05);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+    }
+
+    .knowledge-component-card h4 {
+      margin: 0 0 6px 0;
+      font-size: 1rem;
+      color: #e2e8f0;
+    }
+
+    .knowledge-component-card p {
+      margin: 0 0 8px 0;
+      color: #94a3b8;
+      font-size: 0.88rem;
+      line-height: 1.5;
+    }
+
+    .knowledge-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(192, 132, 252, 0.12);
+      color: #ede9fe;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+    }
+
+    .knowledge-reference {
+      margin-top: 20px;
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+    }
+
+    .knowledge-reference h2,
+    .knowledge-reference h3,
+    .knowledge-reference h4 {
+      color: #e2e8f0;
+      margin-top: 0;
+    }
+
+    .knowledge-reference p,
+    .knowledge-reference .day-ranges,
+    .knowledge-reference .goals,
+    .knowledge-reference .related-docs {
+      color: #94a3b8;
+      font-size: 0.88rem;
+    }
+
+    .knowledge-reference .knowledge-document {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 12px;
+      background: rgba(15, 23, 42, 0.6);
+    }
+
+    .knowledge-reference .component {
+      border-top: 1px solid rgba(148, 163, 184, 0.2);
+      padding-top: 12px;
+      margin-top: 12px;
+    }
+
+    .knowledge-reference .component:first-of-type {
+      border-top: none;
+      padding-top: 0;
+      margin-top: 0;
+    }
+
     .loading {
       display: flex;
       align-items: center;
@@ -261,7 +355,97 @@
     .panel.loading canvas {
       opacity: 0.3;
     }
+/* Knowledge Integration Styles */
+.knowledge-components-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.knowledge-component {
+  background-color: rgba(12, 20, 36, 0.7);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.knowledge-component:hover {
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.knowledge-component h4 {
+  margin-top: 0;
+  color: var(--primary);
+}
+
+.component-type {
+  display: inline-block;
+  background-color: var(--accent);
+  color: var(--bg);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  margin: 0 0 8px 0;
+}
+
+.timeline-day, .goal-item {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.timeline-day:hover, .goal-item:hover {
+  border-color: var(--primary);
+}
+
+.active-day, .active-goal, .active-component {
+  border: 2px solid var(--primary) !important;
+  background-color: rgba(56, 189, 248, 0.1) !important;
+}
+
+.highlighted-day, .highlighted-goal {
+  border: 2px solid var(--accent) !important;
+  background-color: rgba(192, 132, 252, 0.1) !important;
+}
+
+.component-details {
+  background-color: rgba(12, 20, 36, 0.5);
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 24px;
+  border: 1px solid var(--border);
+}
+
+.component-details h3 {
+  margin-top: 0;
+  color: var(--primary);
+}
+
+.component-details h4 {
+  color: var(--success);
+  margin: 16px 0 8px 0;
+}
+
+.component-details ul {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.day-ranges, .related-goals, .related-documents {
+  margin: 12px 0;
+}
+
+#knowledgeComponentsList, #knowledgeReferenceDocs {
+  margin-top: 24px;
+  max-height: 500px;
+  overflow-y: auto;
+}
   </style>
+          <div id="knowledge-references" class="knowledge-references" style="margin-top: 15px;"></div>
 </head>
 <body>
   <div class="layout">
@@ -355,7 +539,17 @@
           <div class="timeline-info" style="margin-top: 15px; font-size: 0.85rem; color: #94a3b8;">
             <p>Click timeline periods to view corresponding Time Capsule documents and knowledge frameworks</p>
           </div>
+          <div id="knowledge-references" class="knowledge-references" style="margin-top: 15px;"></div>
         </div>
+      </section>
+
+      <section class="panel" id="knowledge-references">
+        <h3>Knowledge References</h3>
+        <div id="knowledgeSelectionSummary" class="knowledge-selection">
+          <p>Select a timeline period to explore related knowledge components and institutional memory.</p>
+        </div>
+        <div id="knowledgeComponentsList" class="knowledge-components"></div>
+        <div id="knowledgeReferenceDocs"></div>
       </section>
     </main>
   </div>
@@ -363,6 +557,7 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="js/data-loader.js"></script>
   <script src="js/chart-updater.js"></script>
+  <script type="module" src="js/knowledge-integration.js"></script>
   <script>
     const chartDefaults = Chart.defaults;
     chartDefaults.color = '#cbd5e1';
@@ -370,6 +565,13 @@
     chartDefaults.font.family = 'Space Grotesk';
 
     const gradients = {};
+
+    if (typeof DataLoader !== 'undefined' && typeof DataLoader.prototype.loadData !== 'function') {
+      DataLoader.prototype.loadData = function(relativePath) {
+        return this.fetchJSON(relativePath);
+      };
+    }
+
     function buildGradient(ctx, topColor, bottomColor) {
       const gradient = ctx.createLinearGradient(0, 0, 0, 260);
       gradient.addColorStop(0, topColor);
@@ -542,6 +744,208 @@
           }
         }
       });
+    })();
+  </script>
+</body>
+</html>
+    // Village goals timeline
+    (async () => {
+      const timelineCanvas = document.getElementById('timelineChart');
+      if (!timelineCanvas) return;
+
+      const ctx = timelineCanvas.getContext('2d');
+      gradients.timeline = buildGradient(ctx, 'rgba(192, 132, 252, 0.5)', 'rgba(192, 132, 252, 0.1)');
+
+      const loader = new DataLoader();
+      let timelineGoals = [];
+
+      try {
+        const timelineResponse = await loader.loadVillageTimeline();
+        if (Array.isArray(timelineResponse?.goals) && timelineResponse.goals.length > 0) {
+          timelineGoals = timelineResponse.goals;
+        }
+      } catch (error) {
+        console.warn('Failed to load timeline data:', error);
+      }
+
+      if (timelineGoals.length === 0) {
+        timelineGoals = [
+          { goal: 'Charity fundraising (66 agent hours)', start_day: 1, end_day: 38, duration_days: 38, agent_hours: 66 },
+          { goal: 'Reflection period (4 agent hours)', start_day: 39, end_day: 40, duration_days: 2, agent_hours: 4 },
+          { goal: 'Identify bugs in AI systems (9 agent hours)', start_day: 41, end_day: 44, duration_days: 4, agent_hours: 9 },
+          { goal: 'Write story together (57 agent hours)', start_day: 45, end_day: 78, duration_days: 34, agent_hours: 57 },
+          { goal: 'Unsupervised agents (4 agent hours)', start_day: 79, end_day: 81, duration_days: 3, agent_hours: 4 }
+        ];
+      }
+
+      const labels = timelineGoals.map(goal => {
+        const start = goal.start_day ?? goal.goal_start ?? '?';
+        const end = goal.end_day ?? goal.goal_end ?? start;
+        return `Days ${start}-${end}`;
+      });
+
+      const datasetData = timelineGoals.map(goal => {
+        const start = goal.start_day ?? goal.goal_start ?? 0;
+        const end = goal.end_day ?? goal.goal_end ?? start;
+        const duration = goal.duration_days ?? goal.durationDays ?? Math.max(1, end - start + 1);
+        return {
+          x: duration,
+          goal
+        };
+      });
+
+      const timelineChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [{
+            label: 'Village Goals',
+            data: datasetData,
+            parsing: false,
+            backgroundColor: gradients.timeline,
+            borderColor: '#c084fc',
+            borderWidth: 2,
+            borderRadius: 6,
+            borderSkipped: false
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                title: (items) => {
+                  const goal = items[0]?.raw?.goal;
+                  return goal?.goal || 'Goal period';
+                },
+                label: (context) => {
+                  const goal = context.raw?.goal;
+                  if (!goal) {
+                    return `${context.parsed.x} days`;
+                  }
+                  const start = goal.start_day ?? goal.goal_start ?? '?';
+                  const end = goal.end_day ?? goal.goal_end ?? start;
+                  const duration = goal.duration_days ?? goal.durationDays ?? Math.max(1, end - start + 1);
+                  const hours = goal.agent_hours ? ` • ${goal.agent_hours} agent hours` : '';
+                  return `Days ${start}-${end} • ${duration} days${hours}`;
+                }
+              }
+            }
+          },
+          scales: {
+            x: {
+              grid: { color: 'rgba(255,255,255,0.04)' },
+              title: {
+                display: true,
+                text: 'Duration (days)',
+                color: '#94a3b8'
+              }
+            },
+            y: {
+              grid: { display: false },
+              ticks: { color: '#cbd5e1' }
+            }
+          }
+        }
+      });
+
+      const knowledgeModule = window.KnowledgeIntegration || {};
+      const KnowledgeIntegratorClass = knowledgeModule.KnowledgeIntegrator;
+      const componentsList = document.getElementById('knowledgeComponentsList');
+      const selectionSummary = document.getElementById('knowledgeSelectionSummary');
+      const docsContainer = document.getElementById('knowledgeReferenceDocs');
+      let knowledgeIntegrator;
+
+      const renderKnowledgeComponentsForGoal = (goal) => {
+        if (!componentsList || !selectionSummary) {
+          return;
+        }
+
+        if (!goal) {
+          selectionSummary.innerHTML = '<p>Select a timeline period to explore related knowledge components and institutional memory.</p>';
+          componentsList.innerHTML = '';
+          return;
+        }
+
+        const start = goal.start_day ?? goal.goal_start ?? '?';
+        const end = goal.end_day ?? goal.goal_end ?? start;
+        const duration = goal.duration_days ?? goal.durationDays ?? Math.max(1, (typeof end === 'number' && typeof start === 'number') ? end - start + 1 : 1);
+        const hours = goal.agent_hours ? ` · ${goal.agent_hours} agent hours` : '';
+        selectionSummary.innerHTML = `<p><strong>${goal.goal || 'Goal period'}</strong><br>Days ${start}-${end} • ${duration} days${hours}</p>`;
+
+        if (!knowledgeIntegrator || !knowledgeIntegrator.mappings?.dayToComponents) {
+          componentsList.innerHTML = '<p class="knowledge-selection">Knowledge integration data is still loading.</p>';
+          return;
+        }
+
+        const componentMap = new Map();
+        if (typeof start === 'number' && typeof end === 'number') {
+          for (let day = start; day <= end; day++) {
+            const dayComponents = knowledgeIntegrator.getComponentsForDay(day) || [];
+            dayComponents.forEach(component => {
+              if (component?.id && !componentMap.has(component.id)) {
+                componentMap.set(component.id, component);
+              }
+            });
+          }
+        }
+
+        if (componentMap.size === 0) {
+          componentsList.innerHTML = '<p class="knowledge-selection">No knowledge components found for this period yet.</p>';
+          return;
+        }
+
+        componentsList.innerHTML = Array.from(componentMap.values()).map(component => {
+          const typeLabel = component.type ? component.type.replace(/_/g, ' ') : 'Knowledge';
+          const description = component.description ? `<p>${component.description}</p>` : '';
+          return `
+            <article class="knowledge-component-card">
+              <h4>${component.title || component.id}</h4>
+              ${description}
+              <span class="knowledge-badge">${typeLabel}</span>
+            </article>
+          `;
+        }).join('');
+      };
+
+      renderKnowledgeComponentsForGoal(null);
+
+      if (docsContainer) {
+        docsContainer.innerHTML = '';
+      }
+
+      if (KnowledgeIntegratorClass) {
+        knowledgeIntegrator = new KnowledgeIntegratorClass(loader);
+        let initialized = false;
+
+        try {
+          initialized = await knowledgeIntegrator.initialize();
+        } catch (error) {
+          console.error('KnowledgeIntegrator initialization error:', error);
+        }
+
+        if (initialized) {
+          knowledgeIntegrator.extendTimelineVisualization(timelineCanvas);
+
+          if (docsContainer) {
+            const docsHtml = knowledgeIntegrator.generateReferenceDocs();
+            if (docsHtml) {
+              docsContainer.innerHTML = docsHtml;
+            }
+          }
+        }
+      }
+
+      timelineChart.options.onClick = (evt, elements) => {
+        if (!elements.length) {
+          return;
+        }
+        const index = elements[0].index;
+        renderKnowledgeComponentsForGoal(timelineGoals[index]);
+      };
+
+      timelineChart.update();
     })();
   </script>
 </body>

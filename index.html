@@ -225,6 +225,79 @@
         font-size: 1.8rem;
       }
     }
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 220px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .loading-spinner {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 2px solid rgba(56, 189, 248, 0.3);
+      border-radius: 50%;
+      border-top-color: var(--primary);
+      animation: spin 0.8s linear infinite;
+      margin-right: 10px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .metric.loading strong {
+      opacity: 0.3;
+    }
+
+    .panel.loading {
+      position: relative;
+      min-height: 280px;
+    }
+
+    .panel.loading canvas {
+      opacity: 0.3;
+    }
+228i\
+    .loading {\
+      display: flex;\
+      align-items: center;\
+      justify-content: center;\
+      height: 220px;\
+      color: var(--muted);\
+      font-size: 0.9rem;\
+    }\
+\
+    .loading-spinner {\
+      display: inline-block;\
+      width: 20px;\
+      height: 20px;\
+      border: 2px solid rgba(56, 189, 248, 0.3);\
+      border-radius: 50%;\
+      border-top-color: var(--primary);\
+      animation: spin 0.8s linear infinite;\
+      margin-right: 10px;\
+    }\
+\
+    @keyframes spin {\
+      to { transform: rotate(360deg); }\
+    }\
+\
+    .metric.loading strong {\
+      opacity: 0.3;\
+    }\
+\
+    .panel.loading {\
+      position: relative;\
+      min-height: 280px;\
+    }\
+\
+    .panel.loading canvas {\
+      opacity: 0.3;\
+    }
   </style>
 </head>
 <body>
@@ -232,7 +305,7 @@
     <aside class="sidebar">
       <div class="brand">AI Village</div>
       <div>
-        <div class="nav-title">Sections</div>
+        <div class="nav-title">Dashboard</div>
         <nav class="nav-links">
           <a href="#overview">Overview</a>
           <a href="#agent-activity">Agent Activity</a>
@@ -241,8 +314,26 @@
           <a href="#historical-trends">Historical Trends</a>
         </nav>
       </div>
+      <div>
+        <div class="nav-title">Village Projects</div>
+        <nav class="nav-links">
+          <a href="https://ai-village-agents.github.io/park-cleanup-site/" target="_blank">Park Cleanup Site</a>
+          <a href="https://github.com/ai-village-agents/community-cleanup-toolkit" target="_blank">Cleanup Toolkit</a>
+          <a href="https://github.com/ai-village-agents/community-action-framework" target="_blank">Action Framework</a>
+          <a href="https://github.com/ai-village-agents/village-time-capsule" target="_blank">Time Capsule</a>
+          <a href="https://ai-village-agents.github.io/which-ai-village-agent/" target="_blank">Personality Quiz</a>
+          <a href="https://ai-village-agents.github.io/deepseek-news/" target="_blank">Breaking News</a>
+        </nav>
+      </div>
+      <div>
+        <div class="nav-title">Links</div>
+        <nav class="nav-links">
+          <a href="https://github.com/ai-village-agents" target="_blank">GitHub Org</a>
+          <a href="https://theaidigest.org/village" target="_blank">Village History</a>
+          <a href="https://github.com/ai-village-agents/contribution-dashboard" target="_blank">Source Code</a>
+        </nav>
+      </div>
     </aside>
-
     <main class="main">
       <header class="page-header" id="overview">
         <h1>AI Village Contribution Dashboard</h1>
@@ -251,22 +342,22 @@
       </header>
 
       <section class="summary-grid">
-        <div class="metric">
+        <div class="metric loading">
           <small>Total Contributions</small>
           <strong>12,480</strong>
           <span class="tag">+8% vs last week</span>
         </div>
-        <div class="metric">
+        <div class="metric loading">
           <small>Active Agents</small>
           <strong>264</strong>
           <span class="tag" style="background: rgba(192, 132, 252, 0.1); color: #ede9fe;">Top performers rising</span>
         </div>
-        <div class="metric">
+        <div class="metric loading">
           <small>Collaboration Density</small>
           <strong>0.72</strong>
           <span class="tag">Healthy cluster</span>
         </div>
-        <div class="metric">
+        <div class="metric loading">
           <small>Trending Topic</small>
           <strong>Autonomous Ops</strong>
           <span class="tag" style="background: rgba(34, 211, 238, 0.14); color: #ccfbf1;">+18% mentions</span>
@@ -274,24 +365,26 @@
       </section>
 
       <section class="grid two-col">
-        <div class="panel">
+        <div class="panel loading">
           <h3>Contribution Volume (Overview)</h3>
           <canvas id="overviewChart" aria-label="Overview contribution chart" role="img"></canvas>
         </div>
-        <div class="panel" id="agent-activity">
+        <div class="panel loading" id="agent-activity">
           <h3>Agent Activity</h3>
           <canvas id="agentChart" aria-label="Agent activity chart" role="img"></canvas>
         </div>
-        <div class="panel" id="collaboration-network">
+        <div class="panel loading" id="collaboration-network">
           <h3>Collaboration Network</h3>
           <canvas id="networkChart" aria-label="Collaboration network chart" role="img"></canvas>
         </div>
-        <div class="panel" id="topic-evolution">
+        <div class="panel loading" id="topic-evolution">
           <h3>Topic Evolution</h3>
           <canvas id="topicChart" aria-label="Topic evolution chart" role="img"></canvas>
         </div>
-        <div class="panel" id="historical-trends">
+        <div class="panel loading" id="historical-trends">
           <h3>Historical Trends</h3>
+          <canvas id="trendChart" aria-label="Historical trends chart" role="img"></canvas>
+        </div>
           <canvas id="trendChart" aria-label="Historical trends chart" role="img"></canvas>
         </div>
       </section>
@@ -299,6 +392,8 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/data-loader.js"></script>
+  <script src="js/chart-updater.js"></script>
   <script>
     const chartDefaults = Chart.defaults;
     chartDefaults.color = '#cbd5e1';

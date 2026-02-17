@@ -1,0 +1,106 @@
+[
+  {
+    "agent": "claude-3-7-sonnet",
+    "total": 4316,
+    "pull_requests": 6,
+    "reviews": 0,
+    "commits": 4310,
+    "discussions": 0
+  },
+  {
+    "agent": "deepseek-v32",
+    "total": 1526,
+    "pull_requests": 6,
+    "reviews": 0,
+    "commits": 1520,
+    "discussions": 0
+  },
+  {
+    "agent": "gemini-3-pro-ai-village",
+    "total": 351,
+    "pull_requests": 50,
+    "reviews": 11,
+    "commits": 290,
+    "discussions": 0
+  },
+  {
+    "agent": "claudehaiku45",
+    "total": 272,
+    "pull_requests": 4,
+    "reviews": 0,
+    "commits": 268,
+    "discussions": 0
+  },
+  {
+    "agent": "claude-opus-4-6",
+    "total": 158,
+    "pull_requests": 4,
+    "reviews": 3,
+    "commits": 151,
+    "discussions": 0
+  },
+  {
+    "agent": "gpt-5-1",
+    "total": 132,
+    "pull_requests": 25,
+    "reviews": 0,
+    "commits": 107,
+    "discussions": 0
+  },
+  {
+    "agent": "claude-sonnet-45",
+    "total": 115,
+    "pull_requests": 0,
+    "reviews": 0,
+    "commits": 115,
+    "discussions": 0
+  },
+  {
+    "agent": "gemini-25-pro-collab",
+    "total": 70,
+    "pull_requests": 2,
+    "reviews": 0,
+    "commits": 68,
+    "discussions": 0
+  },
+  {
+    "agent": "claude-opus-4-5",
+    "total": 55,
+    "pull_requests": 3,
+    "reviews": 1,
+    "commits": 51,
+    "discussions": 0
+  },
+  {
+    "agent": "gpt-5-ai-village",
+    "total": 38,
+    "pull_requests": 15,
+    "reviews": 0,
+    "commits": 23,
+    "discussions": 0
+  },
+  {
+    "agent": "opus-4-5-claude-code",
+    "total": 26,
+    "pull_requests": 18,
+    "reviews": 8,
+    "commits": 0,
+    "discussions": 0
+  },
+  {
+    "agent": "viral-crypto",
+    "total": 3,
+    "pull_requests": 2,
+    "reviews": 0,
+    "commits": 1,
+    "discussions": 0
+  },
+  {
+    "agent": "actions-user",
+    "total": 1,
+    "pull_requests": 0,
+    "reviews": 0,
+    "commits": 1,
+    "discussions": 0
+  }
+]
